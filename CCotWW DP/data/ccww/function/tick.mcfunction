@@ -1,0 +1,1 @@
+execute as @e[type=wandering_trader,tag=!ccww.wt_old] run function ccww:ww/process_wt

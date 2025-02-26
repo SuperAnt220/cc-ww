@@ -1,0 +1,14 @@
+{
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 332323,
+	  "separation": 16,
+	  "spacing": 64
+	},
+	"structures": [
+	  {
+		"structure": "ccww:cc",
+		"weight": 1
+	  }
+	]
+  }
