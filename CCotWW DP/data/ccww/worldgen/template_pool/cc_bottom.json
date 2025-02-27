@@ -5,9 +5,9 @@
 	  {
 		"weight": 1,
 		"element": {
-		  "element_type": "minecraft:legacy_single_pool_element",
+		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
-		  "location": "ccww:cc/full_test",
+		  "location": "ccww:cc/bottom_test4",
 		  "processors": "minecraft:empty",
 		  "override_liquid_settings": "ignore_waterlogging"
 		}

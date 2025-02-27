@@ -9,7 +9,7 @@
 			"functions": [
 			  {
 				"function": "minecraft:exploration_map",
-				"destination": "minecraft:igloo",
+				"destination": "ccww:cc",
 				"decoration": "minecraft:red_x",
 				"zoom": 3,
 				"search_radius": 5000
