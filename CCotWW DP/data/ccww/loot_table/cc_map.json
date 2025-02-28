@@ -21,6 +21,10 @@
 				}
 			  },
 			  {
+				"function": "minecraft:set_custom_data",
+				"tag": "{ccww:{cc_map:1b}}"
+			  },
+			  {
 				"function": "set_name",
 				"entity": "this",
 				"target": "item_name",

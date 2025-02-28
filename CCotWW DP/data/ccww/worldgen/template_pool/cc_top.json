@@ -7,7 +7,7 @@
 		"element": {
 		  "element_type": "minecraft:single_pool_element",
 		  "projection": "rigid",
-		  "location": "ccww:cc/top_test3",
+		  "location": "ccww:cc/top",
 		  "processors": "minecraft:empty",
 		  "override_liquid_settings": "ignore_waterlogging"
 		}

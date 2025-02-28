@@ -1,0 +1,9 @@
+{
+	"map_scanner": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/map_scanner/map_scanner.json",
+			"assets/animated_java/models/blueprint/map_scanner/map_scanner.json"
+		]
+	}
+}

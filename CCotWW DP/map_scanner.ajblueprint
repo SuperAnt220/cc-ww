@@ -1,0 +1,469 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "78a2deee-a4bc-d76d-9414-67897d3c6598",
+		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP\\map_scanner.ajblueprint",
+		"last_used_export_namespace": "map_scanner"
+	},
+	"blueprint_settings": {
+		"export_namespace": "map_scanner",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "base",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, -8],
+			"to": [8, 5, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [0, 0, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"south": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "e96d35aa-f3a4-dced-d5c5-1a187a6a312d"
+		},
+		{
+			"name": "middle",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-5, 5, -5],
+			"to": [5, 11, 5],
+			"autouv": 0,
+			"color": 4,
+			"origin": [0, 5, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 10, 6],
+					"texture": 2
+				},
+				"east": {
+					"uv": [0, 0, 10, 6],
+					"texture": 2
+				},
+				"south": {
+					"uv": [0, 0, 10, 6],
+					"texture": 2
+				},
+				"west": {
+					"uv": [0, 0, 10, 6],
+					"texture": 2
+				},
+				"up": {
+					"uv": [0, 0, 10, 10]
+				},
+				"down": {
+					"uv": [0, 0, 10, 10]
+				}
+			},
+			"type": "cube",
+			"uuid": "9c5a7631-8094-b753-56e6-911fdedd268c"
+		},
+		{
+			"name": "top",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 11, -8],
+			"to": [8, 16, 8],
+			"autouv": 0,
+			"color": 4,
+			"origin": [0, 11, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"south": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 11, 16, 16],
+					"texture": 1
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "4cf5fc31-c64a-6beb-e82b-238b6a25821d"
+		},
+		{
+			"name": "wall1",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 16, 7],
+			"to": [8, 19, 8],
+			"autouv": 1,
+			"color": 9,
+			"inflate": 0.001,
+			"origin": [0, 16, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 3],
+					"texture": 2
+				},
+				"east": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"south": {
+					"uv": [0, 0, 16, 3],
+					"texture": 2
+				},
+				"west": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"up": {
+					"uv": [0, 0, 16, 1],
+					"texture": 2
+				},
+				"down": {
+					"uv": [0, 0, 16, 1],
+					"texture": 2
+				}
+			},
+			"type": "cube",
+			"uuid": "5792a157-5b88-a3a1-f1c5-cd7fda76730c"
+		},
+		{
+			"name": "wall2",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 16, -8],
+			"to": [8, 19, -7],
+			"autouv": 1,
+			"color": 9,
+			"inflate": 0.001,
+			"origin": [0, 16, -14],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 3],
+					"texture": 2
+				},
+				"east": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"south": {
+					"uv": [0, 0, 16, 3],
+					"texture": 2
+				},
+				"west": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"up": {
+					"uv": [0, 0, 16, 1],
+					"texture": 2
+				},
+				"down": {
+					"uv": [0, 0, 16, 1],
+					"texture": 2
+				}
+			},
+			"type": "cube",
+			"uuid": "deb8f943-72e1-258e-47e5-1818a9f04afb"
+		},
+		{
+			"name": "wall3",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [7, 16, -7],
+			"to": [8, 19, 7],
+			"autouv": 1,
+			"color": 9,
+			"inflate": 0.001,
+			"origin": [7, 17.5, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"east": {
+					"uv": [0, 0, 14, 3],
+					"texture": 2
+				},
+				"south": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"west": {
+					"uv": [0, 0, 14, 3],
+					"texture": 2
+				},
+				"up": {
+					"uv": [0, 0, 14, 1],
+					"rotation": 270,
+					"texture": 2
+				},
+				"down": {
+					"uv": [0, 0, 14, 1],
+					"rotation": 90,
+					"texture": 2
+				}
+			},
+			"type": "cube",
+			"uuid": "b28e56d5-632e-2fd1-1c49-9f6e17437f5a"
+		},
+		{
+			"name": "wall4",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 16, -7],
+			"to": [-7, 19, 7],
+			"autouv": 1,
+			"color": 9,
+			"inflate": 0.001,
+			"origin": [-7, 17.5, 0],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"east": {
+					"uv": [0, 0, 14, 3],
+					"texture": 2
+				},
+				"south": {
+					"uv": [0, 0, 1, 3],
+					"texture": 2
+				},
+				"west": {
+					"uv": [0, 0, 14, 3],
+					"texture": 2
+				},
+				"up": {
+					"uv": [0, 0, 14, 1],
+					"rotation": 270,
+					"texture": 2
+				},
+				"down": {
+					"uv": [0, 0, 14, 1],
+					"rotation": 90,
+					"texture": 2
+				}
+			},
+			"type": "cube",
+			"uuid": "cb1dd0f0-27a4-ca4b-072a-5c700fac60db"
+		}
+	],
+	"outliner": [
+		{
+			"name": "map_scanner",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "77a8c2a2-80d0-4fc1-b742-b2393071c6f1",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": true,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"e96d35aa-f3a4-dced-d5c5-1a187a6a312d",
+				"4cf5fc31-c64a-6beb-e82b-238b6a25821d",
+				"9c5a7631-8094-b753-56e6-911fdedd268c",
+				"5792a157-5b88-a3a1-f1c5-cd7fda76730c",
+				"deb8f943-72e1-258e-47e5-1818a9f04afb",
+				"b28e56d5-632e-2fd1-1c49-9f6e17437f5a",
+				"cb1dd0f0-27a4-ca4b-072a-5c700fac60db"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\chiseled_tuff_bricks_top.png",
+			"name": "chiseled_tuff_bricks_top.png",
+			"folder": "",
+			"namespace": "",
+			"id": "0",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "d158aa75-d221-4d85-bbb4-5363addcde29",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAU9JREFUOE+FU8FOwkAQnRJFSts0hZBGEKNETbh48cO8YeLV+IMevJjgQQ0xBLGhpYgGzJtmlsFSO5fZ7u68ee91xxrcXK991yFEFCecEbJXtm/d392uh+8zWswjU1y2qNV9ajoVvsYAj8+v9DkdFdYd2C59pTEhI9phm/NhwycLEt7GU0oXM75UFFJ81j1meWANFgYADHDpqt83fsyXP1Sv7vE31tIVGQC90MszOD25oPS7Qvb+yhRrgPNui+JkuQEQDyABETSOCotxXgoAg4S27ow1mF32mtzoYTjJPPjLACZJiG4pRtYAOQ/smkedVrBlmi6GL5AgDHIAOACDXZ3F1E6YNXh6GWfvQEsAg8D3jARoRug/UggghWKgngX9uFynahjgLj+kSbLa6oJiDNZ/IJDAAJAw+oj4F+0K0JeHpc+FKTPAQdn4yqjr0cf6F+ao6hcUNxNaAAAAAElFTkSuQmCC",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\chiseled_tuff_bricks.png",
+			"name": "chiseled_tuff_bricks.png",
+			"folder": "",
+			"namespace": "",
+			"id": "1",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "069fd973-0ce2-458e-af05-f997808a08b5",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAATBJREFUOE9jLCvP/8/AwMBw9dY1BisjU4aPX76CuETzGYOiAv8LCskwvH/3hEFFVo7hzuNHDKTwGb0DXf9LSGswCHMzwW0mlv/26z8GsAFgnQwMDL9+/gXTbOzMMCGwGIyPTZ5xYl/D/y9ff8E1oDNAYcLPww0WhoUPjH/t/hMGxtbmqv883GxgBegGEdL8/cdnhAGX7r1l4GT9x/D9NyQsQGx0AJKDqQEFOggwgqIR5KR7Lz/DNcIMgRnExcYClvv26w8DjA2KrZ/fvyAMeP7uI9h2mM3IhqAbBLLw2LnTCBeATH728hnEBRy8cJeD/IgMkOU+vH8OMSCnMPs/qZphBoO94Orl9B9XvMNsx5U+wC4ARSOp6R9ZPTgWSE3/yOrBBoByIrHpH+RsZPUU5wUAxiwLkPNPdYcAAAAASUVORK5CYII=",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\quartz_block_bottom.png",
+			"name": "quartz_block_bottom.png",
+			"folder": "",
+			"namespace": "",
+			"id": "2",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "eab9d3d2-831c-5b8d-b33a-56e8eea3eeea",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMZJREFUOE+FU7sOwzAIxJKHDP3/j+vQoUOGDJk6eEBKZQIEHHCYHDvH4+4o+7YeEAU2d4uI+l2Xl57Lvn4OqAvABCB/WyDdYYMzAYetYsvXWoGK2OCCZfu+wxEI1CMBUgOIoAkUEHQjb1GHjyPMwP3NJYhaxvZzo4+dllRGZjmU+JIFfAJm1mmekclJiMRxzlC2sRWRcTrCoHuswoOVU3Oxne8kGh7saJmxbjJKxdSJ6vtz2ZwTO3gKDBbu2sap4OLvRv638QdHkpAhT19PJgAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "a4cdee5f-d8ba-cc8e-3e6a-732d1aad69b4",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [],
+	"animation_controllers": []
+}

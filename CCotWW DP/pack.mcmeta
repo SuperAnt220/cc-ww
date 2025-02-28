@@ -1,6 +1,14 @@
 {
-    "pack": {
-        "pack_format": 61,
-        "description": "by SuperAnt_"
-    }
+	"pack": {
+		"pack_format": 61,
+		"description": "by SuperAnt_"
+	},
+	"overlays": {
+		"entries": [
+			{
+				"directory": "animated_java",
+				"formats": 61
+			}
+		]
+	}
 }

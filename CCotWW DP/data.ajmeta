@@ -1,0 +1,36 @@
+{
+	"map_scanner": {
+		"files": [
+			"animated_java/data/animated_java/function/map_scanner/invalid_version_warning.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/root/outdated_tellraw.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/root/zzz/0.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/root/on_load.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/root/on_tick.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/zzz/1.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/zzz/2.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/zzz/0.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/summon.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/remove/all.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/remove/this.mcfunction",
+			"animated_java/data/animated_java/function/map_scanner/set_default_pose.mcfunction",
+			"animated_java/data/animated_java/tags/function/map_scanner/as_root/pre_tick.json",
+			"animated_java/data/animated_java/tags/function/map_scanner/as_root/post_tick.json",
+			"animated_java/data/animated_java/tags/function/map_scanner/as_root/on_summon.json",
+			"animated_java/data/animated_java/tags/function/map_scanner/as_root/on_remove.json",
+			"data/animated_java/function/global/on_load.mcfunction",
+			"data/animated_java/function/global/on_tick.mcfunction",
+			"data/animated_java/function/global/errors/function_not_executed_as_root_entity.mcfunction",
+			"data/animated_java/function/global/remove/everything.mcfunction",
+			"data/animated_java/function/global/internal/gu/load.mcfunction",
+			"data/animated_java/function/global/internal/gu/zzz/0.mcfunction",
+			"data/animated_java/function/global/internal/gu/zzz/1.mcfunction",
+			"data/animated_java/function/global/internal/gu/convert_uuid_array_to_string.mcfunction",
+			"data/animated_java/function/map_scanner/on_load.mcfunction",
+			"data/animated_java/function/map_scanner/invalid_version_warning.mcfunction",
+			"data/minecraft/tags/function/load.json",
+			"data/minecraft/tags/function/tick.json",
+			"data/animated_java/tags/function/global/on_load.json",
+			"data/animated_java/tags/function/global/root/on_load.json"
+		]
+	}
+}
