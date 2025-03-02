@@ -3,7 +3,17 @@
 		"files": [
 			"assets/animated_java/models/empty.json",
 			"assets/animated_java/items/blueprint/map_scanner/map_scanner.json",
-			"assets/animated_java/models/blueprint/map_scanner/map_scanner.json"
+			"assets/animated_java/items/blueprint/map_scanner/top.json",
+			"assets/animated_java/items/blueprint/map_scanner/scan1.json",
+			"assets/animated_java/items/blueprint/map_scanner/scan2.json",
+			"assets/animated_java/items/blueprint/map_scanner/success.json",
+			"assets/animated_java/items/blueprint/map_scanner/fail.json",
+			"assets/animated_java/models/blueprint/map_scanner/map_scanner.json",
+			"assets/animated_java/models/blueprint/map_scanner/top.json",
+			"assets/animated_java/models/blueprint/map_scanner/scan1.json",
+			"assets/animated_java/models/blueprint/map_scanner/scan2.json",
+			"assets/animated_java/models/blueprint/map_scanner/success.json",
+			"assets/animated_java/models/blueprint/map_scanner/fail.json"
 		]
 	}
 }

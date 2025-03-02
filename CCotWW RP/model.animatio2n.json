@@ -1,0 +1,18 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"map_scanner.fail": {
+			"animation_length": 1,
+			"bones": {
+				"fail": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.05": [0, 4, 0],
+						"0.95": [0, 4, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		}
+	}
+}

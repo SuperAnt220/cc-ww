@@ -1,0 +1,50 @@
+{
+	"textures": {
+		"3": "minecraft:block/scanner_glass",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [1, 7, 8],
+			"to": [15, 10, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, -6, 16]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 1, 6, 2],
+					"texture": "#3"
+				},
+				"east": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#3"
+				},
+				"south": {
+					"uv": [0, 1, 6, 2],
+					"texture": "#3"
+				},
+				"west": {
+					"uv": [0, 0, 0, 2],
+					"texture": "#3"
+				},
+				"up": {
+					"uv": [0, 0, 0, 14],
+					"rotation": 90,
+					"texture": "#3"
+				},
+				"down": {
+					"uv": [0, 0, 0, 14],
+					"rotation": 270,
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"3": "minecraft:block/scanner_glass",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [1, 3.5, 1],
+			"to": [15, 4.5, 15],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, -11.5, 8]
+			},
+			"faces": {
+				"up": {
+					"uv": [0, 2, 6, 3],
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

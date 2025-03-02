@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=aj.map_scanner.root,tag=ccww.map_scanner.scanning] at @s run function ccww:cc/map_scanner/scan_end
