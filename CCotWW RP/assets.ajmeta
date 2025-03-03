@@ -1,4 +1,27 @@
 {
+	"elevator": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/elevator/back.json",
+			"assets/animated_java/items/blueprint/elevator/back_left.json",
+			"assets/animated_java/items/blueprint/elevator/back_right.json",
+			"assets/animated_java/items/blueprint/elevator/right.json",
+			"assets/animated_java/items/blueprint/elevator/front_right.json",
+			"assets/animated_java/items/blueprint/elevator/front.json",
+			"assets/animated_java/items/blueprint/elevator/front_left.json",
+			"assets/animated_java/items/blueprint/elevator/left.json",
+			"assets/animated_java/items/blueprint/elevator/base.json",
+			"assets/animated_java/models/blueprint/elevator/back.json",
+			"assets/animated_java/models/blueprint/elevator/back_left.json",
+			"assets/animated_java/models/blueprint/elevator/back_right.json",
+			"assets/animated_java/models/blueprint/elevator/right.json",
+			"assets/animated_java/models/blueprint/elevator/front_right.json",
+			"assets/animated_java/models/blueprint/elevator/front.json",
+			"assets/animated_java/models/blueprint/elevator/front_left.json",
+			"assets/animated_java/models/blueprint/elevator/left.json",
+			"assets/animated_java/models/blueprint/elevator/base.json"
+		]
+	},
 	"map_scanner": {
 		"files": [
 			"assets/animated_java/models/empty.json",

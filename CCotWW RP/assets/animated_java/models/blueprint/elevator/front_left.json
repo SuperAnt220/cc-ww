@@ -1,0 +1,49 @@
+{
+	"textures": {
+		"0": "minecraft:block/chiseled_quartz_block_top",
+		"1": "minecraft:block/polished_tuff",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.5, 7.5, 0],
+			"to": [23.5, 8.5, 16],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [15.5, 8, 8]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"east": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"south": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"west": {
+					"uv": [0, 0, 16, 1],
+					"texture": "#1"
+				},
+				"up": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#0"
+				},
+				"down": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#1"
+				}
+			}
+		}
+	]
+}

@@ -2,8 +2,8 @@
 execute unless entity @s[tag=aj.map_scanner.root] run return 0
 execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:global/root/on_load
 function #animated_java:map_scanner/as_root/pre_tick
+execute if entity @s[tag=aj.map_scanner.animation.map_scanner_fail.playing] run function animated_java:map_scanner/animations/map_scanner_fail/zzz/on_tick
 execute if entity @s[tag=aj.map_scanner.animation.map_scanner_scan.playing] run function animated_java:map_scanner/animations/map_scanner_scan/zzz/on_tick
 execute if entity @s[tag=aj.map_scanner.animation.map_scanner_success.playing] run function animated_java:map_scanner/animations/map_scanner_success/zzz/on_tick
-execute if entity @s[tag=aj.map_scanner.animation.map_scanner_fail.playing] run function animated_java:map_scanner/animations/map_scanner_fail/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:map_scanner/as_root/post_tick

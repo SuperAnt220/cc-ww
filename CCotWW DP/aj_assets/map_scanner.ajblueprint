@@ -3,7 +3,7 @@
 		"format": "animated_java_blueprint",
 		"format_version": "1.6.4",
 		"uuid": "78a2deee-a4bc-d76d-9414-67897d3c6598",
-		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP\\map_scanner.ajblueprint",
+		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP\\aj_assets\\map_scanner.ajblueprint",
 		"last_used_export_namespace": "map_scanner"
 	},
 	"blueprint_settings": {
@@ -758,12 +758,12 @@
 					"visible": true,
 					"blend_mode": "default",
 					"in_limbo": false,
-					"width": 16,
-					"height": 16
+					"width": 300,
+					"height": 150
 				}
 			],
 			"selected_layer": "38dac6e8-3213-3ce9-8d50-78670f385940",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAEdJREFUOE9jZKAQMCad+/8AmxnzjBgViDGbMeJ/839sClcw1jISZcD/iAisBjCuWEGcAcTYgk8NUbaMGoA/mEcDkYFh4MMAAGEeDBGWD7oTAAAAAElFTkSuQmCC",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPhr4vAAAJpgAEX/anFwAAAAASUVORK5CYII=",
 			"mode": "bitmap"
 		}
 	],
@@ -786,7 +786,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\model.animatio2n.json",
 			"anim_time_update": "",
@@ -1052,7 +1052,7 @@
 			"override": false,
 			"length": 4.25,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\model.animation.json",
 			"anim_time_update": "",

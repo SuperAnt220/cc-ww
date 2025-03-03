@@ -1,0 +1,60 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"elevator.prepare": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.25,
+			"loop_delay": 0,
+			"bones": {
+				"back": {
+					"rotation": {
+						"1.1": [0, 0, 0],
+						"1.95": [90, 0, 0]
+					}
+				},
+				"back_left": {
+					"rotation": {
+						"1.0": [0, 0, 0],
+						"1.85": [90, 0, 0]
+					}
+				},
+				"back_right": {
+					"rotation": {
+						"1.2": [0, 0, 0],
+						"2.05": [90, 0, 0]
+					}
+				},
+				"right": {
+					"rotation": {
+						"0.9": [0, 0, 0],
+						"1.65": [0, 0, -90]
+					}
+				},
+				"front_right": {
+					"rotation": {
+						"0.75": [0, 0, 0],
+						"1.5": [0, 0, -90]
+					}
+				},
+				"front": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [180, 0, 0]
+					}
+				},
+				"front_left": {
+					"rotation": {
+						"0.35": [0, 0, 0],
+						"1.1": [0, 0, 90]
+					}
+				},
+				"left": {
+					"rotation": {
+						"0.5": [0, 0, 0],
+						"1.25": [0, 0, 90]
+					}
+				}
+			}
+		}
+	}
+}

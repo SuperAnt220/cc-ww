@@ -1,0 +1,1 @@
+execute align xyz positioned ~.5 ~ ~.5 rotated ~180 ~ run function animated_java:elevator/summon {args:{}}
