@@ -1,2 +1,2 @@
-execute as @e[type=item_display,tag=ccww.shulker_elevator,distance=..10] at @s run tp @s ~ ~-7.99 ~
-schedule function ccww:cc/elevator/end_move_schedule 59t
+execute as @e[type=item_display,tag=ccww.shulker_elevator,distance=..10] at @s run tp @s ~ ~-9 ~
+schedule function ccww:cc/elevator/continue_move_schedule2 59t
