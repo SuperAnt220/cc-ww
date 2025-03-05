@@ -1,0 +1,7 @@
+{
+	"hand_animation_on_swap": false,
+	"model": {
+		"type": "model",
+		"model": "ccww:item/cc/arcane_conduit_staff_using"
+	}
+}

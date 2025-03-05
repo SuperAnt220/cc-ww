@@ -1,0 +1,2 @@
+$particle trail{color:[1.000,0.910,0.078],target:[$(player_x),$(player_y),$(player_z)],duration:15} ~ ~1 ~ 0.2 0.2 0.2 1 5 normal
+scoreboard players add @s[scores={ccww.life_essence=..199}] ccww.life_essence 1

@@ -1,0 +1,18 @@
+{
+	"criteria": {
+	  "acs_use": {
+		"trigger": "minecraft:using_item",
+		"conditions": {
+		  "item": {
+			"items": "minecraft:poisonous_potato",
+			"predicates": {
+			  "minecraft:custom_data": "{ccww:{acs:1b}}"
+			}
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ccww:acs/use"
+	}
+  }

@@ -1,0 +1,1 @@
+damage @s 100 ccww:devastating_blast by @p[tag=ccww.raycaster]

@@ -1,0 +1,16 @@
+{
+	"credit": "Made with Blockbench by SuperAnt_",
+	"parent": "ccww:item/cc/arcane_conduit_staff",
+	"display": {
+		"firstperson_righthand": {
+			"rotation": [103.11, 70.78, 172.8],
+			"translation": [-3, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_lefthand": {
+			"rotation": [103.11, 70.78, 172.8],
+			"translation": [-3, 4.5, 0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	}
+}

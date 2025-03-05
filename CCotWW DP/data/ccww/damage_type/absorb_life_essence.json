@@ -1,0 +1,7 @@
+{
+	"message_id": "ccww.absorb_life_essence",
+	"exhaustion": 10,
+	"scaling": "never",
+	"effects": "hurt",
+	"death_message_type": "default"
+  }

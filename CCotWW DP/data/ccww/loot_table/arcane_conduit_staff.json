@@ -1,0 +1,44 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:poisonous_potato",
+			"functions": [
+			  {
+				"function": "minecraft:set_name",
+				"entity": "this",
+				"name": "Arcane Conduit Staff",
+				"target": "item_name"
+			  },
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:rarity": "epic",
+				  "!minecraft:food": {},
+				  "minecraft:custom_data": "{ccww:{acs:1b}}",
+				  "minecraft:item_model": "ccww:cc/arcane_conduit_staff",
+				  "minecraft:consumable": {
+                  	"consume_seconds": 999999999,
+                  	"animation": "none",
+                  	"has_consume_particles": false
+                	}
+				}
+			  },
+			  {
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [
+				  [{"keybind":"key.use","italic":false}," to absorb life essence."],
+				  [{"keybind":"key.sneak","italic":false},"+",{"keybind":"key.use"}," to release a devastating blast."]
+				],
+				"mode": "replace_all"
+			  }
+			]
+		  }
+		]
+	  }
+	]
+  }

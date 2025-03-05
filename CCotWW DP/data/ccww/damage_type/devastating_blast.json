@@ -1,0 +1,7 @@
+{
+	"message_id": "ccww.devastating_blast",
+	"exhaustion": 10,
+	"scaling": "never",
+	"effects": "hurt",
+	"death_message_type": "default"
+  }

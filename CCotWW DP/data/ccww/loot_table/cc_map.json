@@ -29,6 +29,11 @@
 				"entity": "this",
 				"target": "item_name",
 				"name": "CyberChamber Explorer Map"
+			  },
+			  {
+				"function": "set_lore",
+				"mode": "append",
+				"lore": [{"text": "Don't throw away! You will need it.","italic": false}]
 			  }
 			]
 		  }

@@ -1,0 +1,2 @@
+execute if score @s ccww.life_essence matches ..199 if score @s ccww.cd matches 0 run function ccww:acs/not_working
+execute if score @s ccww.life_essence matches 200 run function ccww:acs/blast_raycast/raycast
