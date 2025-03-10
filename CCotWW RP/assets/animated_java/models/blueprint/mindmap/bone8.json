@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"2": "minecraft:block/paper",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.90625, 6.45754, 1.14219],
+			"to": [7.90625, 21.20754, 1.39219],
+			"rotation": {
+				"angle": -22.5,
+				"axis": "x",
+				"origin": [7.90625, 23.83254, 1.26719]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 7.125, 0, 14.5],
+					"rotation": 180,
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 7.125, 0.125, 14.5],
+					"rotation": 180,
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [0, 7.125, 0, 14.5],
+					"rotation": 180,
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 15.5, 0.5, 16],
+					"rotation": 180,
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [0, 15.5, 0, 15.625],
+					"rotation": 180,
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [0, 15.5, 0, 15.625],
+					"rotation": 180,
+					"texture": "#2"
+				}
+			}
+		}
+	]
+}

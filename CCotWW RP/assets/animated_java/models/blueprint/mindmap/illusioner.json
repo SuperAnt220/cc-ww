@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"7": "ccww:item/cc/illusioner",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 5.96875, 5.90625],
+			"to": [8, 9.96875, 9.90625],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 5.46875, 7.40625]
+			},
+			"faces": {
+				"west": {
+					"uv": [1.472, 1.664, 13.972, 14.164],
+					"texture": "#7"
+				}
+			}
+		}
+	]
+}

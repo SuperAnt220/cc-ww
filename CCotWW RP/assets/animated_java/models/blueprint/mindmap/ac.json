@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"3": "ccww:item/cc/ac_render",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [7.8125, 19.5, 4.5],
+			"to": [7.8125, 27.5, 12.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [7.8125, 21, 8]
+			},
+			"faces": {
+				"west": {
+					"uv": [1.472, 1.664, 13.972, 14.164],
+					"texture": "#3"
+				}
+			}
+		}
+	]
+}

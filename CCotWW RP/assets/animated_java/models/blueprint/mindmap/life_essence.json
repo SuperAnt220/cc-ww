@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"6": "ccww:item/cc/life_essence",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 3.5, 6.7],
+			"to": [8, 9.5, 19.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 5, 10.2]
+			},
+			"faces": {
+				"west": {
+					"uv": [0, 0, 16, 16],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"textures": {
+		"8": "ccww:item/cc/beacon",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [8, 6.15625, 5.84375],
+			"to": [8, 10.15625, 9.84375],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [8, 5.65625, 7.34375]
+			},
+			"faces": {
+				"west": {
+					"uv": [1.632, 1.456, 14.132, 14.456],
+					"texture": "#8"
+				}
+			}
+		}
+	]
+}
