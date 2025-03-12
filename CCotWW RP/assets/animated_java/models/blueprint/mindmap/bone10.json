@@ -14,7 +14,7 @@
 			"to": [8, 11.5, 7.5],
 			"rotation": {
 				"angle": 0,
-				"axis": "x",
+				"axis": "y",
 				"origin": [8, 6.82635, 7.01519]
 			},
 			"faces": {

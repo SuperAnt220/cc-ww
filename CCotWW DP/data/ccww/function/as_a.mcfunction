@@ -5,3 +5,5 @@ execute if predicate ccww:looking_at/map_scanner if entity @e[type=interaction,t
 execute if items entity @s weapon.mainhand poisonous_potato[custom_data~{ccww:{acs:1b}},item_model="ccww:cc/arcane_conduit_staff_using"] run item modify entity @s weapon.mainhand ccww:acs/unuse
 execute if items entity @s weapon.offhand poisonous_potato[custom_data~{ccww:{acs:1b}},item_model="ccww:cc/arcane_conduit_staff_using"] run item modify entity @s weapon.offhand ccww:acs/unuse
 execute if items entity @s weapon.* poisonous_potato[custom_data~{ccww:{acs:1b}}] run function ccww:acs/show_essence
+execute if items entity @s weapon.* poisonous_potato[custom_data~{ccww:{lev_orb:1b}}] run function ccww:lev_orb/levitate
+execute unless items entity @s weapon.* poisonous_potato[custom_data~{ccww:{lev_orb:1b}}] run function ccww:lev_orb/remove_all_attributes
