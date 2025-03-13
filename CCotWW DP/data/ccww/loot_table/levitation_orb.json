@@ -24,6 +24,24 @@
 				  "!minecraft:consumable": {},
 				  "minecraft:item_model": "ccww:cc/levitation_orb"
 				}
+			  },
+			  {
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [
+				  {"text":"Works only inside the CyberChamber.","italic":false},
+				  {"text":"When Held:","color":"gray","italic":false},
+				  {"text":" No Gravity","color":"blue","italic":false},
+				  [
+					" ",{"keybind":"key.jump","color":"gold","italic":false},
+					{"text":" to fly upwards","italic":false}
+				  ],
+				  [
+					" ",{"keybind":"key.sneak","color":"gold","italic":false},
+					{"text":" to fly downwards","italic":false}
+				  ]
+				],
+				"mode": "replace_all"
 			  }
 			]
 		  }

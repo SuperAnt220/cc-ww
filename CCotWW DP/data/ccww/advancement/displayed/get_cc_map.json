@@ -1,0 +1,29 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:filled_map",
+		"components": {
+		  "minecraft:map_color": 4020844
+		},
+		"count": 1
+	  },
+	  "title": "Wandering Tr... Wizard?",
+	  "description": "Get a CyberChamber map from the Wandering Wizard",
+	  "background": "ccww:textures/gui/advancements/backgrounds/ccww.png",
+	  "hidden": true
+	},
+	"parent": "ccww:displayed/root",
+	"criteria": {
+	  "get_cc_map": {
+		"trigger": "minecraft:villager_trade",
+		"conditions": {
+		  "item": {
+			"items": "minecraft:filled_map",
+			"predicates": {
+			  "minecraft:custom_data": "{ccww:{cc_map:1b}}"
+			}
+		  }
+		}
+	  }
+	}
+  }

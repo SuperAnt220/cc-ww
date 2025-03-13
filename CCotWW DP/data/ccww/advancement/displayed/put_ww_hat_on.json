@@ -1,0 +1,38 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+		  "minecraft:item_model": "ccww:ww/hat"
+		},
+		"count": 1
+	  },
+	  "title": "Certified Wizard",
+	  "description": "Put Wandering Wizard's hat on",
+	  "hidden": true
+	},
+	"criteria": {
+	  "put_ww_hat_on": {
+		"trigger": "minecraft:inventory_changed",
+		"conditions": {
+		  "player": {
+			"slots": {
+			  "armor.head": {
+				"predicates": {
+				  "minecraft:custom_data": "{ccww:{ww_hat:1b}}"
+				}
+			  }
+			}
+		  },
+		  "items": [
+			{
+			  "predicates": {
+				"minecraft:custom_data": "{ccww:{ww_hat:1b}}"
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"parent": "ccww:displayed/map_scan_success"
+  }

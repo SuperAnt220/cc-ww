@@ -1,0 +1,20 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+		  "minecraft:item_model": "ccww:cc/keycard"
+		},
+		"count": 1
+	  },
+	  "title": "Access Granted",
+	  "description": "Get access to the CyberChamber",
+	  "hidden": true
+	},
+	"criteria": {
+	  "empty": {
+		"trigger": "minecraft:impossible"
+	  }
+	},
+	"parent": "ccww:displayed/get_cc_map"
+  }

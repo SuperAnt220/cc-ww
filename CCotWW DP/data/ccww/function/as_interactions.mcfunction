@@ -1,0 +1,1 @@
+execute if entity @s[tag=ccww.hat_stand] unless entity @a[distance=..4,predicate=ccww:looking_at/ww_hat] run data modify entity @n[type=item_display,tag=ccww.hat_stand,distance=..1] Glowing set value 0b

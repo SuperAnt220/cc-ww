@@ -1,0 +1,46 @@
+{
+	"display": {
+	  "icon": {
+		"id": "minecraft:poisonous_potato",
+		"components": {
+		  "minecraft:item_model": "ccww:cc/levitation_orb"
+		},
+		"count": 1
+	  },
+	  "title": "CyberChamber of the Wandering Wizard",
+	  "description": "Uncover the secrets of a dangerous power. Datapack by SuperAnt_",
+	  "background": "ccww:textures/gui/advancements/backgrounds/ccww.png",
+	  "show_toast": false,
+	  "announce_to_chat": false,
+	  "hidden": true
+	},
+	"criteria": {
+	  "get_cc_map": {
+		"trigger": "minecraft:villager_trade",
+		"conditions": {
+		  "item": {
+			"items": "minecraft:filled_map",
+			"predicates": {
+			  "minecraft:custom_data": "{ccww:{cc_map:1b}}"
+			}
+		  }
+		}
+	  },
+	  "get_inside_cc": {
+		"trigger": "minecraft:enter_block",
+		"conditions": {
+		  "player": {
+			"location": {
+			  "structures": "ccww:cc"
+			}
+		  }
+		}
+	  }
+	},
+	"requirements": [
+	  [
+		"get_cc_map",
+		"get_inside_cc"
+	  ]
+	]
+  }

@@ -1,4 +1,5 @@
 advancement revoke @s only ccww:cc/map_scanner/map_placed
+tag @s add ccww.map_placed
 tag @n[type=interaction,tag=ccww.map_scanner] add ccww.map_scanner.old
 
 execute at @n[type=interaction,tag=ccww.map_scanner] run summon item_frame ~ ~1 ~ {Facing:1b,Invulnerable:1b,Fixed:1b,Invisible:1b,Tags:["ccww.map_scanner"]}

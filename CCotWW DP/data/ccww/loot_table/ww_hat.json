@@ -1,0 +1,39 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:poisonous_potato",
+			"functions": [
+			  {
+				"function": "minecraft:set_custom_data",
+				"tag": "{ccww:{ww_hat:1b}}"
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"entity": "this",
+				"name": "Wandering Wizard's Hat",
+				"target": "item_name"
+			  },
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "!minecraft:food": {},
+				  "!minecraft:consumable": {},
+				  "minecraft:item_model": "ccww:ww/hat",
+				  "minecraft:equippable": {
+					"slot": "head",
+					"equip_sound": "minecraft:item.armor.equip_leather",
+					"damage_on_hurt": false
+				  }
+				}
+			  }
+			]
+		  }
+		]
+	  }
+	],
+	"functions": []
+  }
