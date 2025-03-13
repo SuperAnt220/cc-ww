@@ -1,4 +1,41 @@
 {
+	"cccube": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/cccube/unanimated.json",
+			"assets/animated_java/items/blueprint/cccube/inspector_base.json",
+			"assets/animated_java/items/blueprint/cccube/inspector_interior.json",
+			"assets/animated_java/items/blueprint/cccube/keycard.json",
+			"assets/animated_java/items/blueprint/cccube/platform.json",
+			"assets/animated_java/items/blueprint/cccube/initial_mech.json",
+			"assets/animated_java/items/blueprint/cccube/mech.json",
+			"assets/animated_java/items/blueprint/cccube/mechrot.json",
+			"assets/animated_java/items/blueprint/cccube/platform_support.json",
+			"assets/animated_java/items/blueprint/cccube/spyglass_platform.json",
+			"assets/animated_java/items/blueprint/cccube/sp1.json",
+			"assets/animated_java/items/blueprint/cccube/sp2.json",
+			"assets/animated_java/items/blueprint/cccube/sp3.json",
+			"assets/animated_java/items/blueprint/cccube/sp_mech.json",
+			"assets/animated_java/items/blueprint/cccube/2.json",
+			"assets/animated_java/items/blueprint/cccube/3.json",
+			"assets/animated_java/models/blueprint/cccube/unanimated.json",
+			"assets/animated_java/models/blueprint/cccube/inspector_base.json",
+			"assets/animated_java/models/blueprint/cccube/inspector_interior.json",
+			"assets/animated_java/models/blueprint/cccube/keycard.json",
+			"assets/animated_java/models/blueprint/cccube/platform.json",
+			"assets/animated_java/models/blueprint/cccube/initial_mech.json",
+			"assets/animated_java/models/blueprint/cccube/mech.json",
+			"assets/animated_java/models/blueprint/cccube/mechrot.json",
+			"assets/animated_java/models/blueprint/cccube/platform_support.json",
+			"assets/animated_java/models/blueprint/cccube/spyglass_platform.json",
+			"assets/animated_java/models/blueprint/cccube/sp1.json",
+			"assets/animated_java/models/blueprint/cccube/sp2.json",
+			"assets/animated_java/models/blueprint/cccube/sp3.json",
+			"assets/animated_java/models/blueprint/cccube/sp_mech.json",
+			"assets/animated_java/models/blueprint/cccube/2.json",
+			"assets/animated_java/models/blueprint/cccube/3.json"
+		]
+	},
 	"elevator": {
 		"files": [
 			"assets/animated_java/models/empty.json",
