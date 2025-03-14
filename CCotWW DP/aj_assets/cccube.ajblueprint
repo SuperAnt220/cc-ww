@@ -40,7 +40,7 @@
 			"name": "ссcube",
 			"box_uv": false,
 			"rescale": false,
-			"locked": false,
+			"locked": true,
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
@@ -132,6 +132,7 @@
 			"to": [56, 64, 24],
 			"autouv": 0,
 			"color": 8,
+			"visibility": false,
 			"origin": [56, 16, -5],
 			"faces": {
 				"north": {
@@ -296,11 +297,11 @@
 			"light_emission": 0,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [31.78125, 13, -24],
-			"to": [55.78125, 17, 24],
+			"from": [31.78125, 13.0625, -24],
+			"to": [55.78125, 17.0625, 24],
 			"autouv": 0,
 			"color": 8,
-			"origin": [43.78125, 15, 0],
+			"origin": [43.78125, 14.999, 0],
 			"faces": {
 				"north": {
 					"uv": [0, 0, 4, 24],
@@ -540,6 +541,7 @@
 			"to": [52, 42, 1],
 			"autouv": 0,
 			"color": 7,
+			"visibility": false,
 			"origin": [50.5, 40.5, 0],
 			"faces": {
 				"north": {
@@ -630,6 +632,7 @@
 			"to": [52, 59, -15],
 			"autouv": 0,
 			"color": 7,
+			"visibility": false,
 			"origin": [50.5, 40.5, -16],
 			"faces": {
 				"north": {
@@ -1262,9 +1265,9 @@
 		},
 		{
 			"name": "lev_orb",
-			"position": [47.75, 41, 0],
+			"position": [48.75, 41.5, 0],
 			"rotation": [0, 0, -90],
-			"scale": [0.5, 0.5, 0.5],
+			"scale": [1, 1, 1],
 			"visibility": true,
 			"block": "minecraft:stone",
 			"config": {},
@@ -1576,6 +1579,54 @@
 			},
 			"type": "cube",
 			"uuid": "c6eebaa2-303b-8b8f-5f82-1cf8abaccbda"
+		},
+		{
+			"name": "keycard_slot_interact",
+			"position": [56, 17.5, 43],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:interaction",
+				"summon_commands": "tag @s add ccww.keycard_slot\ndata merge entity @s {width:0.3,height:0.8}",
+				"ticking_commands": ""
+			},
+			"uuid": "aa4b534d-12e3-6ecf-e067-e80622a18f42",
+			"type": "locator"
+		},
+		{
+			"name": "spyglass",
+			"position": [91, 34, -16],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:marker",
+				"summon_commands": "tag @s add ccww.spyglass",
+				"ticking_commands": ""
+			},
+			"uuid": "2ea3b1d0-7658-c491-5746-66628ebd9b09",
+			"type": "locator"
+		},
+		{
+			"name": "inspector_platform",
+			"position": [74.18, 22, -0.75],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:marker",
+				"summon_commands": "tag @s add ccww.inspector_platform",
+				"ticking_commands": ""
+			},
+			"uuid": "521c6beb-37fa-282c-244a-c04cb2d6bff6",
+			"type": "locator"
 		}
 	],
 	"outliner": [
@@ -1593,8 +1644,30 @@
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
-			"selected": true,
-			"children": ["49a88940-6205-7593-78da-e705d5989f67", "d2c87504-d700-798d-88dc-e3aa0b4cd022"]
+			"selected": false,
+			"children": [
+				{
+					"name": "keycard_slot",
+					"origin": [56, 18, 41],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"uuid": "27ecd63b-1961-4f29-fcfb-0eb838699fbc",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": false,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"selected": false,
+					"children": ["49a88940-6205-7593-78da-e705d5989f67"]
+				},
+				"aa4b534d-12e3-6ecf-e067-e80622a18f42",
+				"d2c87504-d700-798d-88dc-e3aa0b4cd022",
+				"2ea3b1d0-7658-c491-5746-66628ebd9b09",
+				"521c6beb-37fa-282c-244a-c04cb2d6bff6"
+			]
 		},
 		{
 			"name": "inspector_base",
@@ -1608,7 +1681,7 @@
 			"mirror_uv": false,
 			"isOpen": false,
 			"locked": false,
-			"visibility": true,
+			"visibility": false,
 			"autouv": 0,
 			"selected": false,
 			"children": ["3de09a31-b24a-d2fe-354f-ee85a1e86901", "00b9bf70-8cb4-6414-42c4-f33a05f47811", "d519af91-7bda-9372-83a8-b4d16aa3ea0a"]
@@ -1623,7 +1696,7 @@
 			"uuid": "7388f1cc-cb16-1a2a-1efa-8bdea3239bb9",
 			"export": true,
 			"mirror_uv": false,
-			"isOpen": false,
+			"isOpen": true,
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
@@ -1686,7 +1759,26 @@
 					"visibility": true,
 					"autouv": 0,
 					"selected": false,
-					"children": ["3a87612a-b9b3-6ebb-9de5-597bcb920c2f", "945e40f1-fea6-7c8d-d66a-62887bc99dff"]
+					"children": [
+						{
+							"name": "base",
+							"origin": [42.5, 41.5, 0],
+							"color": 0,
+							"configs": {
+								"variants": {}
+							},
+							"uuid": "61a5f20b-c88c-80ad-a6ee-c4f67d3ae063",
+							"export": true,
+							"mirror_uv": false,
+							"isOpen": true,
+							"locked": false,
+							"visibility": true,
+							"autouv": 0,
+							"selected": false,
+							"children": ["3a87612a-b9b3-6ebb-9de5-597bcb920c2f"]
+						},
+						"945e40f1-fea6-7c8d-d66a-62887bc99dff"
+					]
 				},
 				{
 					"name": "initial_mech",
@@ -2631,7 +2723,8 @@
 							"time": 7.55,
 							"color": -1,
 							"interpolation": "linear",
-							"easing": "easeInOutQuad"
+							"easing": "easeInOutQuad",
+							"easingArgs": []
 						},
 						{
 							"channel": "position",

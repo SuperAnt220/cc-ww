@@ -31,7 +31,7 @@
 				"function": "minecraft:set_lore",
 				"entity": "this",
 				"lore": [
-				  [{"keybind":"key.use","italic":false}," to absorb life essence."],
+				  [{"keybind":"key.use","italic":false}," while looking at an entity to absorb life essence."],
 				  [{"keybind":"key.sneak","italic":false},"+",{"keybind":"key.use"}," to release a devastating blast."]
 				],
 				"mode": "replace_all"

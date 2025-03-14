@@ -1,0 +1,1 @@
+$data modify entity @s transformation.left_rotation set value {angle:$(inspector_item_rot),axis:[1,0,0]}

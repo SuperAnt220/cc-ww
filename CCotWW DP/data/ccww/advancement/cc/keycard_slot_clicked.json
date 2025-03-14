@@ -1,0 +1,22 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_interacted_with_entity",
+		"conditions": {
+		  "item": {
+			"items": "minecraft:poisonous_potato",
+			"predicates": {
+			  "minecraft:custom_data": "{ccww:{keycard:1b}}"
+			}
+		  },
+		  "entity": {
+			"type": "minecraft:interaction",
+			"nbt": "{Tags:[\"ccww.keycard_slot\"]}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ccww:cc/keycard_slot/insert"
+	}
+  }

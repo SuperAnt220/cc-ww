@@ -1,4 +1,4 @@
-advancement revoke @s only ccww:cc/map_scanner/map_placed
+advancement revoke @s only ccww:cc/map_scanner_map_placed
 tag @s add ccww.map_placed
 tag @n[type=interaction,tag=ccww.map_scanner] add ccww.map_scanner.old
 

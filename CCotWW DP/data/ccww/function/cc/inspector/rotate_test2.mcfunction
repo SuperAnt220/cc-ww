@@ -1,1 +1,0 @@
-$data modify entity @s transformation.left_rotation set value {angle:$(test),axis:[1,0,0]}

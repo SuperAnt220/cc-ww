@@ -1,7 +1,7 @@
 {
 	"model": {
 		"type": "minecraft:model",
-		"model": "animated_java:blueprint/cccube/platform",
+		"model": "animated_java:blueprint/cccube/base",
 		"tints": [
 			{
 				"type": "minecraft:dye",

@@ -5,7 +5,7 @@
 	  "type_specific": {
 		"type": "minecraft:player",
 		"input": {
-		  "right": true
+		  "left": true
 		}
 	  }
 	}
