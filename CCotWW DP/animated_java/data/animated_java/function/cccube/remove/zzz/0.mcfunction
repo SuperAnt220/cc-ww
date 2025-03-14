@@ -2,3 +2,5 @@
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.keycard_slot_interact
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.spyglass
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.inspector_platform
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.slider1
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.slider2

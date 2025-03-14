@@ -19,6 +19,10 @@
 			"assets/animated_java/items/blueprint/cccube/sp_mech.json",
 			"assets/animated_java/items/blueprint/cccube/2.json",
 			"assets/animated_java/items/blueprint/cccube/3.json",
+			"assets/animated_java/items/blueprint/cccube/front_sliders_doors.json",
+			"assets/animated_java/items/blueprint/cccube/front_sliders.json",
+			"assets/animated_java/items/blueprint/cccube/slider2.json",
+			"assets/animated_java/items/blueprint/cccube/slider1.json",
 			"assets/animated_java/models/blueprint/cccube/unanimated.json",
 			"assets/animated_java/models/blueprint/cccube/keycard_slot.json",
 			"assets/animated_java/models/blueprint/cccube/inspector_base.json",
@@ -35,7 +39,11 @@
 			"assets/animated_java/models/blueprint/cccube/sp3.json",
 			"assets/animated_java/models/blueprint/cccube/sp_mech.json",
 			"assets/animated_java/models/blueprint/cccube/2.json",
-			"assets/animated_java/models/blueprint/cccube/3.json"
+			"assets/animated_java/models/blueprint/cccube/3.json",
+			"assets/animated_java/models/blueprint/cccube/front_sliders_doors.json",
+			"assets/animated_java/models/blueprint/cccube/front_sliders.json",
+			"assets/animated_java/models/blueprint/cccube/slider2.json",
+			"assets/animated_java/models/blueprint/cccube/slider1.json"
 		]
 	},
 	"elevator": {

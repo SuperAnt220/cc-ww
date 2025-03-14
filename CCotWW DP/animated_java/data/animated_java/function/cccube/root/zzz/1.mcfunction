@@ -2,3 +2,5 @@
 function animated_java:cccube/root/zzz/2 with entity @s data.locators.keycard_slot_interact
 function animated_java:cccube/root/zzz/4 with entity @s data.locators.spyglass
 function animated_java:cccube/root/zzz/6 with entity @s data.locators.inspector_platform
+function animated_java:cccube/root/zzz/8 with entity @s data.locators.slider1
+function animated_java:cccube/root/zzz/10 with entity @s data.locators.slider2

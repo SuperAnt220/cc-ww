@@ -10,6 +10,12 @@ data modify entity @s data.locators.spyglass.uuid set from storage aj:uuid main.
 summon minecraft:marker ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:marker,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/4
 data modify entity @s data.locators.inspector_platform.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/5
+data modify entity @s data.locators.slider1.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/6
+data modify entity @s data.locators.slider2.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.keycard_slot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_keycard_slot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.unanimated] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
@@ -46,3 +52,11 @@ execute on vehicle on passengers if entity @s[tag=aj.cccube.node.sp_mech] run fu
 data modify entity @s data.bones.bone_sp_mech set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.spyglass_platform] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_spyglass_platform set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.front_sliders_doors] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_front_sliders_doors set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.slider2] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_slider2 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.slider1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_slider1 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.front_sliders] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_front_sliders set from storage aj:uuid main.out
