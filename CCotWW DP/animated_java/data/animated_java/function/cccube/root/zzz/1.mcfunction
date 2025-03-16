@@ -4,3 +4,13 @@ function animated_java:cccube/root/zzz/4 with entity @s data.locators.spyglass
 function animated_java:cccube/root/zzz/6 with entity @s data.locators.inspector_platform
 function animated_java:cccube/root/zzz/8 with entity @s data.locators.slider1
 function animated_java:cccube/root/zzz/10 with entity @s data.locators.slider2
+function animated_java:cccube/root/zzz/12 with entity @s data.locators.cpi_black
+function animated_java:cccube/root/zzz/14 with entity @s data.locators.cpi_blue
+function animated_java:cccube/root/zzz/16 with entity @s data.locators.cpi_cyan
+function animated_java:cccube/root/zzz/18 with entity @s data.locators.cpi_green
+function animated_java:cccube/root/zzz/20 with entity @s data.locators.cpi_orange
+function animated_java:cccube/root/zzz/22 with entity @s data.locators.cpi_pink
+function animated_java:cccube/root/zzz/24 with entity @s data.locators.cpi_purple
+function animated_java:cccube/root/zzz/26 with entity @s data.locators.cpi_red
+function animated_java:cccube/root/zzz/28 with entity @s data.locators.cpi_white
+function animated_java:cccube/root/zzz/30 with entity @s data.locators.cpi_yellow

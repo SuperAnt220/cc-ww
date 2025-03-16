@@ -4,3 +4,13 @@ function animated_java:cccube/remove/zzz/kill with entity @s data.locators.spygl
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.inspector_platform
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.slider1
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.slider2
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_black
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_blue
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_cyan
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_green
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_orange
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_pink
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_purple
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_red
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_white
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_yellow

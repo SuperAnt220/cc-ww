@@ -1,0 +1,10 @@
+execute if entity @s[tag=ccww.cpi.black] run function ccww:cc/color_puzzle/cpi/deactivate/black
+execute if entity @s[tag=ccww.cpi.blue] run function ccww:cc/color_puzzle/cpi/deactivate/blue
+execute if entity @s[tag=ccww.cpi.cyan] run function ccww:cc/color_puzzle/cpi/deactivate/cyan
+execute if entity @s[tag=ccww.cpi.green] run function ccww:cc/color_puzzle/cpi/deactivate/green
+execute if entity @s[tag=ccww.cpi.orange] run function ccww:cc/color_puzzle/cpi/deactivate/orange
+execute if entity @s[tag=ccww.cpi.pink] run function ccww:cc/color_puzzle/cpi/deactivate/pink
+execute if entity @s[tag=ccww.cpi.purple] run function ccww:cc/color_puzzle/cpi/deactivate/purple
+execute if entity @s[tag=ccww.cpi.red] run function ccww:cc/color_puzzle/cpi/deactivate/red
+execute if entity @s[tag=ccww.cpi.white] run function ccww:cc/color_puzzle/cpi/deactivate/white
+execute if entity @s[tag=ccww.cpi.yellow] run function ccww:cc/color_puzzle/cpi/deactivate/yellow

@@ -1,1 +1,1 @@
-execute as @e[type=item_display,tag=aj.cccube.root] if entity @s[tag=ccww.slider1_is_on,tag=ccww.slider2_is_on] run say FIRST PUZZLE
+execute as @e[type=item_display,tag=aj.cccube.root] if entity @s[tag=ccww.slider1_is_on,tag=ccww.slider2_is_on,tag=!ccww.sliders_checked] run function ccww:cc/color_puzzle/open_doors

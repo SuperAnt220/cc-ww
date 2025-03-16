@@ -1,7 +1,7 @@
 {
 	"textures": {
 		"2": "minecraft:block/rails",
-		"5": "minecraft:block/quartz_bricks",
+		"5": "minecraft:block/quartz_bricks2",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

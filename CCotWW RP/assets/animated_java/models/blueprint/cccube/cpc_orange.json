@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"6": "minecraft:block/color_puzzle_cubes",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [6.5, 9, 6.5],
+			"to": [9.5, 12, 9.5],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, 9.6, 6.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				},
+				"east": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				},
+				"south": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				},
+				"west": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				},
+				"up": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				},
+				"down": {
+					"uv": [0, 3, 3, 6],
+					"texture": "#6"
+				}
+			}
+		}
+	]
+}

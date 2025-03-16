@@ -7,18 +7,9 @@ execute if predicate ccww:looking_at/map_scanner if entity @e[type=interaction,t
 execute if entity @s[tag=ccww.inspecting] run function ccww:cc/inspector/inspect_controls
 
 ## GLOWING stuff
-#ww's hat
-execute if predicate ccww:looking_at/ww_hat run data modify entity @n[type=item_display,tag=ccww.hat_stand,distance=..4] Glowing set value 1b
-#keycard slot
-execute if predicate ccww:looking_at/keycard_slot run data modify entity @n[type=item_display,tag=aj.cccube.bone.keycard_slot] Glowing set value 1b
-execute if predicate ccww:looking_at/keycard_slot run function ccww:cc/keycard_slot/title_msg
-#spyglass
-execute if predicate ccww:looking_at/spyglass run function ccww:cc/inspector/spyglass_glow
-#inspector platform
-execute if predicate ccww:looking_at/inspector_platform run function ccww:cc/inspector/platform_glow
 #sliders
-execute if predicate ccww:looking_at/slider1 run data modify entity @n[type=item_display,tag=aj.cccube.bone.slider1,distance=..20] Glowing set value 1b
-execute if predicate ccww:looking_at/slider2 run data modify entity @n[type=item_display,tag=aj.cccube.bone.slider2,distance=..20] Glowing set value 1b
+#execute if predicate ccww:looking_at/slider1 run data modify entity @n[type=item_display,tag=aj.cccube.bone.slider1,distance=..20] Glowing set value 1b
+#execute if predicate ccww:looking_at/slider2 run data modify entity @n[type=item_display,tag=aj.cccube.bone.slider2,distance=..20] Glowing set value 1b
 
 
 #arcane conduit staff
