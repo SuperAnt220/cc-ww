@@ -36,6 +36,7 @@
 			"assets/animated_java/items/blueprint/cccube/cpc_red.json",
 			"assets/animated_java/items/blueprint/cccube/cpc_white.json",
 			"assets/animated_java/items/blueprint/cccube/cpc_yellow.json",
+			"assets/animated_java/items/blueprint/cccube/mirror_shelf.json",
 			"assets/animated_java/models/blueprint/cccube/unanimated.json",
 			"assets/animated_java/models/blueprint/cccube/keycard_slot.json",
 			"assets/animated_java/models/blueprint/cccube/inspector_base.json",
@@ -69,7 +70,8 @@
 			"assets/animated_java/models/blueprint/cccube/cpc_purple.json",
 			"assets/animated_java/models/blueprint/cccube/cpc_red.json",
 			"assets/animated_java/models/blueprint/cccube/cpc_white.json",
-			"assets/animated_java/models/blueprint/cccube/cpc_yellow.json"
+			"assets/animated_java/models/blueprint/cccube/cpc_yellow.json",
+			"assets/animated_java/models/blueprint/cccube/mirror_shelf.json"
 		]
 	},
 	"elevator": {

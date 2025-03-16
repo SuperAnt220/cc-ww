@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=aj.cccube.root,tag=ccww.color_puzzle_solved] at @s run function ccww:cc/color_puzzle/end_puzzle_end

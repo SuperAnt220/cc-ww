@@ -14,3 +14,4 @@ function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_p
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_red
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_white
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cpi_yellow
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.mirror_interaction

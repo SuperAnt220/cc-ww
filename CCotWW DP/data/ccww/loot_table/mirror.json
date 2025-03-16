@@ -1,0 +1,48 @@
+{
+	"pools": [
+	  {
+		"rolls": 1,
+		"entries": [
+		  {
+			"type": "minecraft:item",
+			"name": "minecraft:bee_spawn_egg",
+			"functions": [
+			  {
+				"function": "minecraft:set_custom_data",
+				"tag": "{ccww:{mirror:1b}}"
+			  },
+			  {
+				"function": "minecraft:set_name",
+				"entity": "this",
+				"name": "Mirror",
+				"target": "item_name"
+			  },
+			  {
+				"function": "minecraft:set_components",
+				"components": {
+				  "minecraft:item_model": "ccww:cc/mirror",
+				  "minecraft:entity_data": {
+					"id": "minecraft:interaction",
+					"Tags": ["ccww.mirror"],
+					"width": 1.05,
+					"height": 1.05
+				  }
+				}
+			  },
+			  {
+				"function": "minecraft:set_lore",
+				"entity": "this",
+				"lore": [
+				  [{"text":"","italic":false},{"keybind":"key.use","color":"gold"}," to rotate horizontally."],
+				  [{"text":"","italic":false},{"keybind":"key.sneak","color":"gold"}," + ",{"keybind":"key.use","color":"gold"}," to rotate vertically."],
+				  [{"text":"","italic":false},{"keybind":"key.attack","color":"gold"}," to break the mirror."]
+				],
+				"mode": "replace_all"
+			  }
+			]
+		  }
+		]
+	  }
+	],
+	"functions": []
+  }

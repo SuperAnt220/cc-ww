@@ -14,3 +14,4 @@ function animated_java:cccube/root/zzz/24 with entity @s data.locators.cpi_purpl
 function animated_java:cccube/root/zzz/26 with entity @s data.locators.cpi_red
 function animated_java:cccube/root/zzz/28 with entity @s data.locators.cpi_white
 function animated_java:cccube/root/zzz/30 with entity @s data.locators.cpi_yellow
+function animated_java:cccube/root/zzz/32 with entity @s data.locators.mirror_interaction

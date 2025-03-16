@@ -1,0 +1,613 @@
+{
+	"meta": {
+		"format": "animated_java_blueprint",
+		"format_version": "1.6.4",
+		"uuid": "a707f818-3c3c-bd51-1861-e070739b80f2",
+		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP\\aj_assets\\stable_mirror.ajblueprint",
+		"last_used_export_namespace": "blueprint"
+	},
+	"blueprint_settings": {
+		"export_namespace": "stable_mirror",
+		"show_bounding_box": false,
+		"auto_bounding_box": true,
+		"bounding_box": [48, 48],
+		"enable_plugin_mode": false,
+		"resource_pack_export_mode": "raw",
+		"data_pack_export_mode": "raw",
+		"target_minecraft_version": "1.21.4",
+		"display_item": "minecraft:white_dye",
+		"custom_model_data_offset": 0,
+		"enable_advanced_resource_pack_settings": false,
+		"resource_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP",
+		"enable_advanced_data_pack_settings": false,
+		"data_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP",
+		"summon_commands": "",
+		"ticking_commands": "",
+		"interpolation_duration": 1,
+		"teleportation_duration": 1,
+		"use_storage_for_animation": false,
+		"show_function_errors": true,
+		"show_outdated_warning": true,
+		"baked_animations": true,
+		"json_file": ""
+	},
+	"resolution": {
+		"width": 16,
+		"height": 16
+	},
+	"elements": [
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 8, 16],
+			"to": [-6, 16, 24],
+			"autouv": 0,
+			"color": 0,
+			"origin": [-8, 8, 8],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 8],
+					"texture": 1
+				},
+				"east": {
+					"uv": [8, 0, 16, 8],
+					"texture": 1
+				},
+				"south": {
+					"uv": [0, 0, 2, 8],
+					"texture": 1
+				},
+				"west": {
+					"uv": [8, 0, 16, 8],
+					"texture": 1
+				},
+				"up": {
+					"uv": [7, 0, 9, 8],
+					"texture": 1
+				},
+				"down": {
+					"uv": [14, 0, 16, 8],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "21256f81-f07d-50a4-47cf-a2aa1a827d7e"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-8, 0, 8],
+			"to": [-6, 8, 24],
+			"autouv": 0,
+			"color": 4,
+			"origin": [-8, 0, 8],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 8],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 8, 16, 16],
+					"texture": 1
+				},
+				"south": {
+					"uv": [0, 8, 2, 16],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 8, 16, 16],
+					"texture": 1
+				},
+				"up": {
+					"uv": [7, 0, 9, 16],
+					"texture": 1
+				},
+				"down": {
+					"uv": [0, 0, 2, 16],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "0664c8a3-ba62-f586-dd45-abef6b280e07"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [6, 0, 8],
+			"to": [8, 8, 24],
+			"autouv": 0,
+			"color": 6,
+			"origin": [6, 0, 8],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 8],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 8, 16, 16],
+					"texture": 1
+				},
+				"south": {
+					"uv": [14, 8, 16, 16],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 8, 16, 16],
+					"texture": 1
+				},
+				"up": {
+					"uv": [7, 0, 9, 16],
+					"texture": 1
+				},
+				"down": {
+					"uv": [14, 0, 16, 16],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "83fb046c-2985-2bc7-7e60-a7789e8b8c27"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, 22],
+			"to": [6, 16, 24],
+			"autouv": 0,
+			"color": 6,
+			"origin": [-1, 0, 8],
+			"faces": {
+				"north": {
+					"uv": [2, 0, 14, 16],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 0, 2, 16],
+					"texture": 1
+				},
+				"south": {
+					"uv": [2, 0, 14, 16],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 0, 2, 16],
+					"texture": 1
+				},
+				"up": {
+					"uv": [4, 0, 16, 2],
+					"texture": 1
+				},
+				"down": {
+					"uv": [2, 0, 14, 2],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "3dbdd7d3-2273-30d2-ed22-6a864b4ca74e"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 0, 8],
+			"to": [6, 2, 22],
+			"autouv": 0,
+			"color": 7,
+			"origin": [-1, 16, 8],
+			"faces": {
+				"north": {
+					"uv": [2, 0, 14, 2],
+					"rotation": 180,
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 0, 2, 16],
+					"rotation": 270,
+					"texture": 1
+				},
+				"south": {
+					"uv": [4, 0, 16, 2],
+					"texture": 1
+				},
+				"west": {
+					"uv": [0, 0, 2, 16],
+					"rotation": 90,
+					"texture": 1
+				},
+				"up": {
+					"uv": [2, 0, 14, 16],
+					"rotation": 180,
+					"texture": 1
+				},
+				"down": {
+					"uv": [2, 2, 14, 16],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "6580b683-6cc0-247d-0f55-719cf2fe1bea"
+		},
+		{
+			"name": "cube",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [6, 8, 16],
+			"to": [8, 16, 24],
+			"autouv": 0,
+			"color": 2,
+			"origin": [6, 8, 8],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 2, 8],
+					"texture": 1
+				},
+				"east": {
+					"uv": [0, 0, 8, 8],
+					"texture": 1
+				},
+				"south": {
+					"uv": [14, 0, 16, 8],
+					"texture": 1
+				},
+				"west": {
+					"uv": [8, 0, 16, 8],
+					"texture": 1
+				},
+				"up": {
+					"uv": [7, 0, 9, 8],
+					"texture": 1
+				},
+				"down": {
+					"uv": [14, 0, 16, 8],
+					"texture": 1
+				}
+			},
+			"type": "cube",
+			"uuid": "e8791d5c-0598-e237-30d4-d0542be54061"
+		},
+		{
+			"name": "mirror",
+			"box_uv": false,
+			"rescale": false,
+			"locked": false,
+			"light_emission": 0,
+			"render_order": "default",
+			"allow_mirror_modeling": true,
+			"from": [-6, 2.75, 8],
+			"to": [6, 19.75, 8],
+			"autouv": 0,
+			"color": 2,
+			"rotation": [45, 0, 0],
+			"origin": [-6, 0, 8],
+			"faces": {
+				"north": {
+					"uv": [0, 0, 6, 8.5],
+					"texture": 0
+				},
+				"east": {
+					"uv": [0, 0, 0, 0],
+					"texture": 0
+				},
+				"south": {
+					"uv": [0, 0, 0, 0],
+					"texture": 0
+				},
+				"west": {
+					"uv": [0, 0, 0, 0],
+					"texture": 0
+				},
+				"up": {
+					"uv": [0, 0, 0, 0],
+					"texture": 0
+				},
+				"down": {
+					"uv": [0, 0, 0, 0],
+					"texture": 0
+				}
+			},
+			"type": "cube",
+			"uuid": "cce1fa06-2dd2-9804-e04e-238f0cb62894"
+		}
+	],
+	"outliner": [
+		{
+			"name": "group",
+			"origin": [0, 8, 16],
+			"rotation": [90, 0, 0],
+			"color": 0,
+			"configs": {
+				"variants": {}
+			},
+			"uuid": "42348443-09e4-8821-ad52-a90ca248b923",
+			"export": true,
+			"mirror_uv": false,
+			"isOpen": false,
+			"locked": false,
+			"visibility": true,
+			"autouv": 0,
+			"selected": false,
+			"children": [
+				"21256f81-f07d-50a4-47cf-a2aa1a827d7e",
+				"0664c8a3-ba62-f586-dd45-abef6b280e07",
+				"83fb046c-2985-2bc7-7e60-a7789e8b8c27",
+				"3dbdd7d3-2273-30d2-ed22-6a864b4ca74e",
+				"6580b683-6cc0-247d-0f55-719cf2fe1bea",
+				"e8791d5c-0598-e237-30d4-d0542be54061",
+				"cce1fa06-2dd2-9804-e04e-238f0cb62894"
+			]
+		}
+	],
+	"textures": [
+		{
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\ccww\\textures\\item\\cc\\mirror.png",
+			"name": "mirror.png",
+			"folder": "item/cc",
+			"namespace": "ccww",
+			"id": "1",
+			"group": "",
+			"width": 32,
+			"height": 32,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "046ea971-f3c3-9d4b-5956-cfeb5445357c",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAASlJREFUWEdjXHDw0n8GJKAgxMUgIiAAFzlz7xmyNEOCvR4jigCFHEaYA0AWg4CKBMJymNl3XnxgePDuG5hLEwcQshzmEJAjqO6AA5fvgKMAOdhhFr758AElgEFqdGRFqBsFIAeADBbgQI1MULAjA1jUyIhS2QFPXr9BSYQgS3FZDhJ30FWhbgigOwDdcljUwKKDpg7A53NYdNDMAdh8DkoX6OJUd8CVx2/+Y0vtIB+ji4MSItUTISwbwoIYltrplguQHYDLcuQygiblAHIRjMvnsOxJ9TQAqgtctKTAMYArC8LSA02KYpADTJSkMBIccrCDEiNNKyOQD2EVEnqNCAsVmjsA5gh8bQGaVMcUtico1k7VioUc14w6YDQERkNgNARGQ2A0BAY8BACf/J4hZmQg4AAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		},
+		{
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\.minecraft\\versions\\1.21.4\\assets\\minecraft\\textures\\block\\quartz_block_bottom.png",
+			"name": "quartz_block_bottom.png",
+			"folder": "block",
+			"namespace": "minecraft",
+			"id": "2",
+			"group": "",
+			"width": 16,
+			"height": 16,
+			"uv_width": 16,
+			"uv_height": 16,
+			"particle": false,
+			"use_as_default": false,
+			"layers_enabled": false,
+			"sync_to_project": "",
+			"render_mode": "default",
+			"render_sides": "auto",
+			"pbr_channel": "color",
+			"frame_time": 1,
+			"frame_order_type": "loop",
+			"frame_order": "",
+			"frame_interpolate": false,
+			"visible": true,
+			"internal": false,
+			"saved": true,
+			"uuid": "3040a760-0764-6240-f87e-350fb444517e",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMZJREFUOE+FU7sOwzAIxJKHDP3/j+vQoUOGDJk6eEBKZQIEHHCYHDvH4+4o+7YeEAU2d4uI+l2Xl57Lvn4OqAvABCB/WyDdYYMzAYetYsvXWoGK2OCCZfu+wxEI1CMBUgOIoAkUEHQjb1GHjyPMwP3NJYhaxvZzo4+dllRGZjmU+JIFfAJm1mmekclJiMRxzlC2sRWRcTrCoHuswoOVU3Oxne8kGh7saJmxbjJKxdSJ6vtz2ZwTO3gKDBbu2sap4OLvRv638QdHkpAhT19PJgAAAABJRU5ErkJggg==",
+			"mode": "bitmap"
+		}
+	],
+	"variants": {
+		"default": {
+			"name": "default",
+			"display_name": "Default",
+			"uuid": "f4e0df20-30ae-c768-9b94-a00558e9efb7",
+			"texture_map": {},
+			"excluded_nodes": [],
+			"is_default": true
+		},
+		"list": []
+	},
+	"animations": [
+		{
+			"uuid": "c941ab00-2b1c-1590-4bf8-97ce15c54da8",
+			"name": "mirror.open",
+			"loop": "hold",
+			"override": false,
+			"length": 1.5,
+			"snapping": 20,
+			"selected": false,
+			"saved": true,
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP\\aj_assets\\mirror_openings.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"42348443-09e4-8821-ad52-a90ca248b923": {
+					"name": "group",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "90",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "36099203-28c4-ddcf-c357-1ddc59b39a60",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "12bbd93b-73db-180f-03ea-d298ba30e244",
+							"time": 0.85,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cfe89d15-1b67-550f-5fa1-e4574baf2ba5",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "linear",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "-16"
+								}
+							],
+							"uuid": "8c872cbf-da18-5377-6427-4fa27e9329c4",
+							"time": 0.75,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						}
+					]
+				}
+			}
+		},
+		{
+			"uuid": "604f9a21-6589-0ce8-f2f3-400404e1557f",
+			"name": "mirror.close",
+			"loop": "hold",
+			"override": false,
+			"length": 1.5,
+			"snapping": 20,
+			"selected": true,
+			"saved": false,
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP\\aj_assets\\mirror_openings.json",
+			"anim_time_update": "",
+			"blend_weight": "",
+			"start_delay": "",
+			"loop_delay": "0",
+			"excluded_nodes": [],
+			"animators": {
+				"42348443-09e4-8821-ad52-a90ca248b923": {
+					"name": "group",
+					"type": "bone",
+					"keyframes": [
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "90",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "36099203-28c4-ddcf-c357-1ddc59b39a60",
+							"time": 0,
+							"color": -1,
+							"interpolation": "linear"
+						},
+						{
+							"channel": "rotation",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "12bbd93b-73db-180f-03ea-d298ba30e244",
+							"time": 0.65,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "0"
+								}
+							],
+							"uuid": "cfe89d15-1b67-550f-5fa1-e4574baf2ba5",
+							"time": 1.5,
+							"color": -1,
+							"interpolation": "linear",
+							"easing": "easeInOutQuad",
+							"easingArgs": []
+						},
+						{
+							"channel": "position",
+							"data_points": [
+								{
+									"x": "0",
+									"y": "0",
+									"z": "-16"
+								}
+							],
+							"uuid": "8c872cbf-da18-5377-6427-4fa27e9329c4",
+							"time": 0.75,
+							"color": -1,
+							"interpolation": "linear"
+						}
+					]
+				}
+			}
+		}
+	],
+	"animation_controllers": []
+}

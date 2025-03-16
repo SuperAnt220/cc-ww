@@ -46,6 +46,9 @@ data modify entity @s data.locators.cpi_white.uuid set from storage aj:uuid main
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/16
 data modify entity @s data.locators.cpi_yellow.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/17
+data modify entity @s data.locators.mirror_interaction.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.keycard_slot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_keycard_slot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.unanimated] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
@@ -116,3 +119,9 @@ execute on vehicle on passengers if entity @s[tag=aj.cccube.node.cpc_white] run 
 data modify entity @s data.bones.bone_cpc_white set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.cpc_yellow] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_cpc_yellow set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mirror1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_mirror1 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mirror2] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_mirror2 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mirror_shelf] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_mirror_shelf set from storage aj:uuid main.out

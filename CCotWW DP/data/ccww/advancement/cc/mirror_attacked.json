@@ -1,0 +1,16 @@
+{
+	"criteria": {
+	  "requirement": {
+		"trigger": "minecraft:player_hurt_entity",
+		"conditions": {
+		  "entity": {
+			"type": "minecraft:interaction",
+			"nbt": "{Tags:[\"ccww.mirror\"]}"
+		  }
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "ccww:cc/mirrors/left_click"
+	}
+  }
