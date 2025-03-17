@@ -97,6 +97,33 @@
 			"assets/animated_java/models/blueprint/elevator/base.json"
 		]
 	},
+	"lasergun": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/lasergun/lasergun.json",
+			"assets/animated_java/items/blueprint/lasergun/extender.json",
+			"assets/animated_java/items/blueprint/lasergun/rot.json",
+			"assets/animated_java/items/blueprint/lasergun/gun.json",
+			"assets/animated_java/items/blueprint/lasergun/tip1.json",
+			"assets/animated_java/items/blueprint/lasergun/ring3.json",
+			"assets/animated_java/items/blueprint/lasergun/tip2.json",
+			"assets/animated_java/items/blueprint/lasergun/ring1.json",
+			"assets/animated_java/items/blueprint/lasergun/ring2.json",
+			"assets/animated_java/items/blueprint/lasergun/box.json",
+			"assets/animated_java/items/blueprint/lasergun/lid.json",
+			"assets/animated_java/models/blueprint/lasergun/lasergun.json",
+			"assets/animated_java/models/blueprint/lasergun/extender.json",
+			"assets/animated_java/models/blueprint/lasergun/rot.json",
+			"assets/animated_java/models/blueprint/lasergun/gun.json",
+			"assets/animated_java/models/blueprint/lasergun/tip1.json",
+			"assets/animated_java/models/blueprint/lasergun/ring3.json",
+			"assets/animated_java/models/blueprint/lasergun/tip2.json",
+			"assets/animated_java/models/blueprint/lasergun/ring1.json",
+			"assets/animated_java/models/blueprint/lasergun/ring2.json",
+			"assets/animated_java/models/blueprint/lasergun/box.json",
+			"assets/animated_java/models/blueprint/lasergun/lid.json"
+		]
+	},
 	"map_scanner": {
 		"files": [
 			"assets/animated_java/models/empty.json",

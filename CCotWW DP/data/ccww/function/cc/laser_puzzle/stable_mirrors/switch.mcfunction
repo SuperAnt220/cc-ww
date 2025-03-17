@@ -1,0 +1,2 @@
+execute if entity @s[tag=!ccww.sm_activated] run return run function ccww:cc/laser_puzzle/stable_mirrors/activate
+execute if entity @s[tag=!ccww.sm_deactivated] run function ccww:cc/laser_puzzle/stable_mirrors/deactivate

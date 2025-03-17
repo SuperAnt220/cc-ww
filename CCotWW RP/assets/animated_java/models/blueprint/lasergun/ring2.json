@@ -1,0 +1,48 @@
+{
+	"textures": {
+		"2": "minecraft:block/lasergun",
+		"particle": "minecraft:item/pufferfish"
+	},
+	"display": {
+		"head": {
+			"rotation": [0, 180, 0]
+		}
+	},
+	"elements": [
+		{
+			"from": [3, 3, 8],
+			"to": [13, 13, 8],
+			"rotation": {
+				"angle": 0,
+				"axis": "y",
+				"origin": [6.5, 5, 5.5]
+			},
+			"faces": {
+				"north": {
+					"uv": [3.5, 0, 6, 2.5],
+					"texture": "#2"
+				},
+				"east": {
+					"uv": [0, 0, 0, 2.5],
+					"texture": "#2"
+				},
+				"south": {
+					"uv": [3.5, 0, 6, 2.5],
+					"texture": "#2"
+				},
+				"west": {
+					"uv": [0, 0, 0, 2.5],
+					"texture": "#2"
+				},
+				"up": {
+					"uv": [2.5, 0, 0, 0],
+					"texture": "#2"
+				},
+				"down": {
+					"uv": [2.5, 0, 0, 0],
+					"texture": "#2"
+				}
+			}
+		}
+	]
+}

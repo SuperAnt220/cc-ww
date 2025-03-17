@@ -1,0 +1,1 @@
+execute as @e[type=marker,tag=ccww.stable_mirror,distance=..30] at @s run function ccww:cc/laser_puzzle/stable_mirrors/summon
