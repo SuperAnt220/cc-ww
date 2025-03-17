@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^.05 align xyz positioned ~.5 ~ ~.5 if entity @n[type=marker,tag=ccww.stable_mirror,tag=ccww.ray_in,distance=..0.01] run return 1

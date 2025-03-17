@@ -1,6 +1,6 @@
 tag @s add ccww.sm_activated
 tag @s remove ccww.sm_deactivated
-setblock ^ ^-.5 ^1 barrier
+setblock ^ ^-.5 ^.5 barrier
 execute as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/variants/green_button/apply
 execute if entity @s[tag=ccww.sm1] as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/animations/mirror_open_left/play
 execute if entity @s[tag=ccww.sm2] as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/animations/mirror_open/play

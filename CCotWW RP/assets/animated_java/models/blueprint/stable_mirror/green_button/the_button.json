@@ -1,0 +1,6 @@
+{
+	"parent": "animated_java:blueprint/stable_mirror/the_button",
+	"textures": {
+		"2": "minecraft:block/sm_button_green"
+	}
+}

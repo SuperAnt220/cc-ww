@@ -1,6 +1,8 @@
 tag @s remove ccww.sm_activated
 tag @s add ccww.sm_deactivated
-setblock ^ ^-.5 ^1 air
+tag @s add ccww.sm_deactivating
+schedule function ccww:cc/laser_puzzle/stable_mirrors/remove_tag 30t
+setblock ^ ^-.5 ^.5 air
 execute as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/variants/default/apply
 execute if entity @s[tag=ccww.sm1] as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/animations/mirror_close_left/play
 execute if entity @s[tag=ccww.sm2] as @n[type=item_display,tag=aj.stable_mirror.root] run function animated_java:stable_mirror/animations/mirror_close/play

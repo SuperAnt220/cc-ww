@@ -102,6 +102,7 @@
 			"assets/animated_java/models/empty.json",
 			"assets/animated_java/items/blueprint/lasergun/lasergun.json",
 			"assets/animated_java/items/blueprint/lasergun/extender.json",
+			"assets/animated_java/items/blueprint/lasergun/ext2.json",
 			"assets/animated_java/items/blueprint/lasergun/rot.json",
 			"assets/animated_java/items/blueprint/lasergun/gun.json",
 			"assets/animated_java/items/blueprint/lasergun/tip1.json",
@@ -113,6 +114,7 @@
 			"assets/animated_java/items/blueprint/lasergun/lid.json",
 			"assets/animated_java/models/blueprint/lasergun/lasergun.json",
 			"assets/animated_java/models/blueprint/lasergun/extender.json",
+			"assets/animated_java/models/blueprint/lasergun/ext2.json",
 			"assets/animated_java/models/blueprint/lasergun/rot.json",
 			"assets/animated_java/models/blueprint/lasergun/gun.json",
 			"assets/animated_java/models/blueprint/lasergun/tip1.json",
@@ -188,6 +190,16 @@
 			"assets/animated_java/models/blueprint/mindmap/ac.json",
 			"assets/animated_java/models/blueprint/mindmap/illusioner.json",
 			"assets/animated_java/models/blueprint/mindmap/beacon.json"
+		]
+	},
+	"stable_mirror": {
+		"files": [
+			"assets/animated_java/models/empty.json",
+			"assets/animated_java/items/blueprint/stable_mirror/mirror.json",
+			"assets/animated_java/items/blueprint/stable_mirror/the_button.json",
+			"assets/animated_java/models/blueprint/stable_mirror/mirror.json",
+			"assets/animated_java/models/blueprint/stable_mirror/the_button.json",
+			"assets/animated_java/models/blueprint/stable_mirror/green_button/the_button.json"
 		]
 	}
 }

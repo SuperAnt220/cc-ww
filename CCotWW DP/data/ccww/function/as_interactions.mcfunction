@@ -42,23 +42,23 @@ execute if entity @s[tag=ccww.mirror_interaction] unless entity @a[distance=..5,
 execute if entity @s[tag=ccww.mirror,tag=!ccww.mirror.summoned] run function ccww:cc/mirrors/summon
 
 #stable mirror buttons
-execute if entity @s[tag=ccww.sm1] if entity @a[distance=..5,predicate=ccww:looking_at/sm1] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm1] unless entity @a[distance=..5,predicate=ccww:looking_at/sm1] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm1] if entity @a[distance=..5,predicate=ccww:looking_at/sm1] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm1] unless entity @a[distance=..5,predicate=ccww:looking_at/sm1] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm2] if entity @a[distance=..5,predicate=ccww:looking_at/sm2] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm2] unless entity @a[distance=..5,predicate=ccww:looking_at/sm2] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm2] if entity @a[distance=..5,predicate=ccww:looking_at/sm2] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm2] unless entity @a[distance=..5,predicate=ccww:looking_at/sm2] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm3] if entity @a[distance=..5,predicate=ccww:looking_at/sm3] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm3] unless entity @a[distance=..5,predicate=ccww:looking_at/sm3] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm3] if entity @a[distance=..5,predicate=ccww:looking_at/sm3] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm3] unless entity @a[distance=..5,predicate=ccww:looking_at/sm3] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm4] if entity @a[distance=..5,predicate=ccww:looking_at/sm4] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm4] unless entity @a[distance=..5,predicate=ccww:looking_at/sm4] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm4] if entity @a[distance=..5,predicate=ccww:looking_at/sm4] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm4] unless entity @a[distance=..5,predicate=ccww:looking_at/sm4] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm5] if entity @a[distance=..5,predicate=ccww:looking_at/sm5] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm5] unless entity @a[distance=..5,predicate=ccww:looking_at/sm5] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm5] if entity @a[distance=..5,predicate=ccww:looking_at/sm5] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm5] unless entity @a[distance=..5,predicate=ccww:looking_at/sm5] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm6] if entity @a[distance=..5,predicate=ccww:looking_at/sm6] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm6] unless entity @a[distance=..5,predicate=ccww:looking_at/sm6] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm6] if entity @a[distance=..5,predicate=ccww:looking_at/sm6] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm6] unless entity @a[distance=..5,predicate=ccww:looking_at/sm6] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
 
-execute if entity @s[tag=ccww.sm7] if entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 1b
-execute if entity @s[tag=ccww.sm7] unless entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.button,distance=..2] Glowing set value 0b
+execute if entity @s[tag=ccww.sm7] if entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
+execute if entity @s[tag=ccww.sm7] unless entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b

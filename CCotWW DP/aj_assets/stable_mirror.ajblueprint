@@ -434,6 +434,38 @@
 			},
 			"uuid": "4a0c1763-1d42-f216-4872-617df66cfdd2",
 			"type": "locator"
+		},
+		{
+			"name": "1",
+			"position": [0, 16, 16],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:marker",
+				"summon_commands": "tag @s add ccww.mirror_way_marker",
+				"ticking_commands": ""
+			},
+			"uuid": "a3b7f8d4-9b0a-20be-a6af-6f44d054b353",
+			"type": "locator"
+		},
+		{
+			"name": "2",
+			"position": [0, 8, 8],
+			"rotation": [0, 0, 0],
+			"ignore_inherited_scale": false,
+			"visibility": true,
+			"locked": false,
+			"config": {
+				"use_entity": true,
+				"entity_type": "minecraft:marker",
+				"summon_commands": "tag @s add ccww.mirror_way_marker",
+				"ticking_commands": ""
+			},
+			"uuid": "7c3b9562-ff77-ada0-ffdf-f0c68191e1f0",
+			"type": "locator"
 		}
 	],
 	"outliner": [
@@ -448,7 +480,7 @@
 			"uuid": "42348443-09e4-8821-ad52-a90ca248b923",
 			"export": true,
 			"mirror_uv": false,
-			"isOpen": false,
+			"isOpen": true,
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
@@ -460,11 +492,28 @@
 				"3dbdd7d3-2273-30d2-ed22-6a864b4ca74e",
 				"6580b683-6cc0-247d-0f55-719cf2fe1bea",
 				"e8791d5c-0598-e237-30d4-d0542be54061",
-				"cce1fa06-2dd2-9804-e04e-238f0cb62894"
+				"cce1fa06-2dd2-9804-e04e-238f0cb62894",
+				{
+					"name": "markers",
+					"origin": [0, 12, 20],
+					"color": 0,
+					"configs": {
+						"variants": {}
+					},
+					"uuid": "aa943cfa-ed77-8d7f-4cec-efb8efe06a4b",
+					"export": true,
+					"mirror_uv": false,
+					"isOpen": true,
+					"locked": false,
+					"visibility": true,
+					"autouv": 0,
+					"selected": false,
+					"children": ["a3b7f8d4-9b0a-20be-a6af-6f44d054b353", "7c3b9562-ff77-ada0-ffdf-f0c68191e1f0"]
+				}
 			]
 		},
 		{
-			"name": "button1",
+			"name": "the_button",
 			"origin": [0, 0, 0],
 			"color": 0,
 			"configs": {
@@ -473,7 +522,7 @@
 			"uuid": "724a572a-abd5-64af-6c74-13d24768e74d",
 			"export": true,
 			"mirror_uv": false,
-			"isOpen": true,
+			"isOpen": false,
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,

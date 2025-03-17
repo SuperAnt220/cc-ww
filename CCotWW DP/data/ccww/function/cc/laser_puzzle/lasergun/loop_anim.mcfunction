@@ -1,0 +1,2 @@
+execute as @e[type=item_display,tag=aj.lasergun.root] run function animated_java:lasergun/animations/lasergun_loop/play
+execute as @e[type=marker,tag=ccww.lasergun.opened] at @s run tag @s add ccww.lasergun.ready_to_fire

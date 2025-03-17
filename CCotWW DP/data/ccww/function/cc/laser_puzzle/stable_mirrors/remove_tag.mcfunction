@@ -1,0 +1,1 @@
+tag @e[tag=ccww.sm_deactivating] remove ccww.sm_deactivating
