@@ -27,3 +27,4 @@ function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cd_6
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cd_7
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cd_8
 function animated_java:cccube/remove/zzz/kill with entity @s data.locators.cd_9
+function animated_java:cccube/remove/zzz/kill with entity @s data.locators.acs_item

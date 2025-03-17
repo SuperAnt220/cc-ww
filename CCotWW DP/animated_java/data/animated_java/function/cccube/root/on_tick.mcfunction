@@ -11,6 +11,7 @@ execute if entity @s[tag=aj.cccube.animation.cccube_mirror_shelf_open.playing] r
 execute if entity @s[tag=aj.cccube.animation.laser_catcher_open.playing] run function animated_java:cccube/animations/laser_catcher_open/zzz/on_tick
 execute if entity @s[tag=aj.cccube.animation.code_lock_open.playing] run function animated_java:cccube/animations/code_lock_open/zzz/on_tick
 execute if entity @s[tag=aj.cccube.animation.mys_cube_open.playing] run function animated_java:cccube/animations/mys_cube_open/zzz/on_tick
+execute if entity @s[tag=aj.cccube.animation.acs_open.playing] run function animated_java:cccube/animations/acs_open/zzz/on_tick
 execute on passengers if entity @s[tag=aj.cccube.data] run function animated_java:cccube/root/zzz/1
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:cccube/as_root/post_tick

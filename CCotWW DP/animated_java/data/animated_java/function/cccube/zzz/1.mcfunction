@@ -85,6 +85,9 @@ data modify entity @s data.locators.cd_8.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/29
 data modify entity @s data.locators.cd_9.uuid set from storage aj:uuid main.out
+summon minecraft:item_display ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:item_display,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/30
+data modify entity @s data.locators.acs_item.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.keycard_slot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_keycard_slot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.unanimated] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
@@ -181,3 +184,17 @@ execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mys_cube_item] 
 data modify entity @s data.bones.item_display_mys_cube_item set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mcs_interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_mcs_interior set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.acs_interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_acs_interior set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.rail_extender] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_rail_extender set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.rails] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_rails set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.acs_support] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_acs_support set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.acs_base] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_acs_base set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.acs_door2] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_acs_door2 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.acs_door1] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_acs_door1 set from storage aj:uuid main.out

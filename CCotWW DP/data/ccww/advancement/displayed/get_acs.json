@@ -9,6 +9,7 @@
 	  },
 	  "title": "Wielding the Forbidden Power",
 	  "description": "Solve the puzzles and obtain the Arcane Conduit Staff",
+	  "frame": "challenge",
 	  "hidden": true
 	},
 	"criteria": {
@@ -25,5 +26,8 @@
 		}
 	  }
 	},
-	"parent": "ccww:displayed/map_scan_success"
+	"parent": "ccww:displayed/map_scan_success",
+	"rewards": {
+	  "experience": 100
+	}
   }

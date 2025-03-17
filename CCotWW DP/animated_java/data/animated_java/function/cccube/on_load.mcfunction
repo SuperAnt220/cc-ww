@@ -8,3 +8,4 @@ scoreboard objectives add aj.cccube_mirror_shelf_open.frame dummy
 scoreboard objectives add aj.laser_catcher_open.frame dummy
 scoreboard objectives add aj.code_lock_open.frame dummy
 scoreboard objectives add aj.mys_cube_open.frame dummy
+scoreboard objectives add aj.acs_open.frame dummy

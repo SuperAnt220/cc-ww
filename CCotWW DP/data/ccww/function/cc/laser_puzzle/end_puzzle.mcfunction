@@ -1,4 +1,3 @@
-say SECOND PUZZLE SOLVED
 tag @n[type=item_display,tag=aj.cccube.root] add ccww.laser_puzzle_solved
 kill @n[type=marker,tag=ccww.laser_catcher,distance=..20]
 

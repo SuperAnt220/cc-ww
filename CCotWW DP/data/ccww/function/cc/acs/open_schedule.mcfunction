@@ -1,0 +1,1 @@
+execute as @e[type=item_display,tag=aj.cccube.root,tag=ccww.code_solved] at @s run function ccww:cc/acs/open

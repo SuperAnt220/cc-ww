@@ -2,6 +2,7 @@
 	"cccube": {
 		"files": [
 			"assets/animated_java/models/empty.json",
+			"assets/animated_java/textures/blueprint/cccube/quartz_pillar_top2.png",
 			"assets/animated_java/items/blueprint/cccube/unanimated.json",
 			"assets/animated_java/items/blueprint/cccube/keycard_slot.json",
 			"assets/animated_java/items/blueprint/cccube/inspector_base.json",
@@ -46,6 +47,13 @@
 			"assets/animated_java/items/blueprint/cccube/the_lock.json",
 			"assets/animated_java/items/blueprint/cccube/cd_interior.json",
 			"assets/animated_java/items/blueprint/cccube/mcs_interior.json",
+			"assets/animated_java/items/blueprint/cccube/acs_interior.json",
+			"assets/animated_java/items/blueprint/cccube/rails.json",
+			"assets/animated_java/items/blueprint/cccube/rail_extender.json",
+			"assets/animated_java/items/blueprint/cccube/acs_support.json",
+			"assets/animated_java/items/blueprint/cccube/acs_base.json",
+			"assets/animated_java/items/blueprint/cccube/acs_door2.json",
+			"assets/animated_java/items/blueprint/cccube/acs_door1.json",
 			"assets/animated_java/models/blueprint/cccube/unanimated.json",
 			"assets/animated_java/models/blueprint/cccube/keycard_slot.json",
 			"assets/animated_java/models/blueprint/cccube/inspector_base.json",
@@ -89,7 +97,14 @@
 			"assets/animated_java/models/blueprint/cccube/cd_door2.json",
 			"assets/animated_java/models/blueprint/cccube/the_lock.json",
 			"assets/animated_java/models/blueprint/cccube/cd_interior.json",
-			"assets/animated_java/models/blueprint/cccube/mcs_interior.json"
+			"assets/animated_java/models/blueprint/cccube/mcs_interior.json",
+			"assets/animated_java/models/blueprint/cccube/acs_interior.json",
+			"assets/animated_java/models/blueprint/cccube/rails.json",
+			"assets/animated_java/models/blueprint/cccube/rail_extender.json",
+			"assets/animated_java/models/blueprint/cccube/acs_support.json",
+			"assets/animated_java/models/blueprint/cccube/acs_base.json",
+			"assets/animated_java/models/blueprint/cccube/acs_door2.json",
+			"assets/animated_java/models/blueprint/cccube/acs_door1.json"
 		]
 	},
 	"elevator": {
