@@ -6,4 +6,6 @@ data modify entity @n[type=item_display,tag=aj.cccube.bone.cpc_purple,distance=.
 data modify entity @n[type=item_display,tag=aj.cccube.bone.cpc_white,distance=..2] Glowing set value 0b
 data modify entity @n[type=item_display,tag=aj.cccube.bone.cpc_white,distance=..2] glow_color_override set value -1
 
+playsound ccww:color_puzzle.solved block @a ~ ~ ~
+playsound ccww:sliding block @a ~ ~ ~
 function animated_java:cccube/animations/cccube_mirror_shelf_open/play

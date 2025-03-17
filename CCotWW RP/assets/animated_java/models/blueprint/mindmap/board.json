@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"0": "minecraft:block/black_concrete_powder",
+		"0": "minecraft:block/black_concrete_powder2",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

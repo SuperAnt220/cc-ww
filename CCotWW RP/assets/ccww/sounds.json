@@ -1,0 +1,81 @@
+{
+	"acs.giving": {
+		"sounds": ["ccww:acs_giving"]
+	},
+	"puzzle.solved": {
+		"sounds": ["ccww:puzzle_solved"]
+	},
+	"color_puzzle.solved": {
+		"sounds": ["ccww:color_puzzle_solved"]
+	},
+	"keycard.insert": {
+		"sounds": ["ccww:keycard_insert"]
+	},
+	"button.click": {
+		"sounds": ["ccww:button_click"]
+	},
+	"lasergun.open": {
+		"sounds": ["ccww:lasergun_open"]
+	},
+	"color_cube.click": {
+		"sounds": [
+			{
+				"name": "ccww:color_cube",
+				"pitch": 0.9
+			},
+			{
+				"name": "ccww:color_cube",
+				"pitch": 1
+			},
+			{
+				"name": "ccww:color_cube",
+				"pitch": 1.5
+			},
+			{
+				"name": "ccww:color_cube",
+				"pitch": 2
+			},
+			{
+				"name": "ccww:color_cube",
+				"pitch": 1.26
+			}
+		]
+	},
+	"sliding": {
+		"sounds": [
+			{
+				"name": "ccww:sliding1"
+			},
+			{
+				"name": "ccww:sliding1",
+				"pitch": 1.26
+			},
+			{
+				"name": "ccww:sliding1",
+				"pitch": 0.8
+			},
+			{
+				"name": "ccww:sliding2"
+			},
+			{
+				"name": "ccww:sliding2",
+				"pitch": 1.8
+			},
+			{
+				"name": "ccww:sliding2",
+				"pitch": 0.8
+			},
+			{
+				"name": "ccww:sliding3"
+			},
+			{
+				"name": "ccww:sliding3",
+				"pitch": 1.4
+			},
+			{
+				"name": "ccww:sliding3",
+				"pitch": 0.7
+			}
+		]
+	}
+}

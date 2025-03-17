@@ -6,3 +6,4 @@ execute as @n[type=item_display,tag=aj.cccube.root] run function animated_java:c
 tag @n[type=marker,tag=ccww.spyglass] add ccww.inspector_prepare
 tag @n[type=marker,tag=ccww.inspector_platform] add ccww.inspector_prepare
 schedule function ccww:cc/inspector/prepare 8s
+playsound ccww:keycard.insert block @a ~ ~ ~

@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"1": "minecraft:block/stripped_oak_log",
+		"1": "minecraft:block/stripped_oak_log2",
 		"particle": "minecraft:item/pufferfish"
 	},
 	"display": {

@@ -4,3 +4,4 @@ kill @n[type=interaction,tag=ccww.slider1]
 tag @n[type=item_display,tag=aj.cccube.root] add ccww.slider1_is_on
 data modify entity @n[type=item_display,tag=aj.cccube.bone.slider_1,distance=..20] Glowing set value 0b
 schedule function ccww:cc/front_sliders/check_both_sliders 1s replace
+playsound ccww:sliding block @a ~ ~ ~ 1 0.8

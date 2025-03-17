@@ -3,7 +3,7 @@
 		"format": "animated_java_blueprint",
 		"format_version": "1.6.4",
 		"uuid": "78a2deee-a4bc-d76d-9414-67897d3c6598",
-		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP\\aj_assets\\map_scanner.ajblueprint",
+		"save_location": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP\\aj_assets\\map_scanner.ajblueprint",
 		"last_used_export_namespace": "map_scanner"
 	},
 	"blueprint_settings": {
@@ -20,7 +20,7 @@
 		"enable_advanced_resource_pack_settings": false,
 		"resource_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP",
 		"enable_advanced_data_pack_settings": false,
-		"data_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW\\datapacks\\CCotWW DP",
+		"data_pack": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\saves\\CCotWW2\\datapacks\\CCotWW DP",
 		"summon_commands": "",
 		"ticking_commands": "",
 		"interpolation_duration": 1,
@@ -355,7 +355,7 @@
 					"texture": 3
 				},
 				"east": {
-					"uv": [0, 1, 6, 2],
+					"uv": [0, 12, 14, 15],
 					"texture": 3
 				},
 				"south": {
@@ -363,7 +363,7 @@
 					"texture": 3
 				},
 				"west": {
-					"uv": [0, 1, 6, 2],
+					"uv": [0, 12, 14, 15],
 					"texture": 3
 				},
 				"up": {
@@ -393,7 +393,7 @@
 			"origin": [0, 3, 0.5],
 			"faces": {
 				"north": {
-					"uv": [0, 1, 6, 2],
+					"uv": [0, 12, 14, 15],
 					"texture": 3
 				},
 				"east": {
@@ -401,7 +401,7 @@
 					"texture": 3
 				},
 				"south": {
-					"uv": [0, 1, 6, 2],
+					"uv": [0, 12, 14, 15],
 					"texture": 3
 				},
 				"west": {
@@ -623,7 +623,7 @@
 									"locked": false,
 									"visibility": true,
 									"autouv": 0,
-									"selected": false,
+									"selected": true,
 									"children": ["6333d5d0-f503-7954-f086-712874b55243"]
 								}
 							]
@@ -734,7 +734,7 @@
 			"uv_height": 16,
 			"particle": false,
 			"use_as_default": false,
-			"layers_enabled": true,
+			"layers_enabled": false,
 			"sync_to_project": "eb36c5b9-4f68-280a-8651-0c7cd594bb5d",
 			"render_mode": "default",
 			"render_sides": "auto",
@@ -747,23 +747,7 @@
 			"internal": false,
 			"saved": true,
 			"uuid": "7966e337-09d9-cae6-a8c3-4097fb09af21",
-			"layers": [
-				{
-					"texture": "7966e337-09d9-cae6-a8c3-4097fb09af21",
-					"uuid": "38dac6e8-3213-3ce9-8d50-78670f385940",
-					"name": "layer",
-					"offset": [0, 0],
-					"scale": [1, 1],
-					"opacity": 100,
-					"visible": true,
-					"blend_mode": "default",
-					"in_limbo": false,
-					"width": 300,
-					"height": 150
-				}
-			],
-			"selected_layer": "38dac6e8-3213-3ce9-8d50-78670f385940",
-			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAB9JREFUOE9jZKAQMFKon2HUAIbRMGAYDQNQPhr4vAAAJpgAEX/anFwAAAAASUVORK5CYII=",
+			"source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAJFJREFUOE9jZKAQMCad+/8AmxnzjBgViDGbMeJ/839sClcw1jISZcD/iAisBjCuWEGcAcTYgk8NUbaMGoA/mAdBICYXnV0vEMnPoCotxHD76TswDQIwNrIYTPzD8o8Mc/uMA0F8RooNKKi/vR5kEpuKONjmt+dvw0ONTVkCJQR/3X0B5vPy8jFMaFSFuIDSpAwAX108EdLeaJIAAAAASUVORK5CYII=",
 			"mode": "bitmap"
 		}
 	],
@@ -786,7 +770,7 @@
 			"override": false,
 			"length": 1,
 			"snapping": 20,
-			"selected": false,
+			"selected": true,
 			"saved": true,
 			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\model.animatio2n.json",
 			"anim_time_update": "",
@@ -1052,7 +1036,7 @@
 			"override": false,
 			"length": 4.25,
 			"snapping": 20,
-			"selected": true,
+			"selected": false,
 			"saved": true,
 			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\model.animation.json",
 			"anim_time_update": "",

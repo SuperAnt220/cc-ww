@@ -1,5 +1,5 @@
 advancement revoke @s only ccww:cc/cd_clicked/cd4
-
+playsound block.stone_button.click_on block @a ~ ~ ~ 0.7 1.5
 function ccww:cc/code_lock/set_value/4
 
 execute as @n[type=text_display,tag=ccww.cd_screen] run data modify entity @s text set value '[{"nbt":"c1","storage":"ccww:code_lock"},{"nbt":"c2","storage":"ccww:code_lock"},{"nbt":"c3","storage":"ccww:code_lock"},{"nbt":"c4","storage":"ccww:code_lock"}]'

@@ -18,6 +18,7 @@
 				"components": {
 				  "minecraft:rarity": "epic",
 				  "!minecraft:food": {},
+				  "max_stack_size": 1,
 				  "minecraft:custom_data": "{ccww:{acs:1b}}",
 				  "minecraft:item_model": "ccww:cc/arcane_conduit_staff",
 				  "minecraft:consumable": {

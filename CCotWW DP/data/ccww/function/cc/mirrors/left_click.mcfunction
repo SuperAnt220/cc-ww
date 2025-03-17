@@ -5,3 +5,4 @@ execute at @n[tag=ccww.mirror_attacked] align xyz positioned ~0.05 ~0.05 ~0.05 a
 execute at @n[tag=ccww.mirror_attacked] run loot spawn ~ ~.5 ~ loot ccww:mirror
 execute at @n[tag=ccww.mirror_attacked] positioned ~ ~.5 ~ run kill @n[type=item_display,tag=ccww.mirror,distance=..0.1]
 execute as @n[tag=ccww.mirror_attacked] run kill
+playsound block.tuff.break block @a ~ ~ ~

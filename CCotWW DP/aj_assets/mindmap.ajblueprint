@@ -2054,8 +2054,8 @@
 	],
 	"textures": [
 		{
-			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\black_concrete_powder.png",
-			"name": "black_concrete_powder.png",
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\black_concrete_powder2.png",
+			"name": "black_concrete_powder2.png",
 			"folder": "",
 			"namespace": "",
 			"id": "0",
@@ -2083,8 +2083,8 @@
 			"mode": "bitmap"
 		},
 		{
-			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\stripped_oak_log.png",
-			"name": "stripped_oak_log.png",
+			"path": "C:\\Users\\12345\\AppData\\Roaming\\ModrinthApp\\profiles\\1.21.3\\resourcepacks\\CCotWW RP\\assets\\minecraft\\textures\\block\\stripped_oak_log2.png",
+			"name": "stripped_oak_log2.png",
 			"folder": "",
 			"namespace": "",
 			"id": "1",

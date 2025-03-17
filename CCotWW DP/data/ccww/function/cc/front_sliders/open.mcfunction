@@ -3,3 +3,7 @@ data modify entity @n[type=interaction,tag=ccww.slider1] width set value 1
 data modify entity @n[type=interaction,tag=ccww.slider2] width set value 1
 execute at @n[type=interaction,tag=ccww.slider1] run setblock ~ ~ ~ air
 execute at @n[type=interaction,tag=ccww.slider2] run setblock ~ ~ ~ air
+
+execute at @n[type=interaction,tag=ccww.slider1] run playsound ccww:sliding block @a ~ ~ ~
+execute at @n[type=interaction,tag=ccww.slider2] run playsound ccww:sliding block @a ~ ~ ~
+schedule function ccww:cc/front_sliders/open_sound 10t
