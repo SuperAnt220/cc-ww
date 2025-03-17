@@ -18,37 +18,73 @@ execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=
 data modify entity @s data.locators.slider2.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/7
-data modify entity @s data.locators.cpi_black.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.mys_cube_interaction.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/8
-data modify entity @s data.locators.cpi_blue.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_black.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/9
-data modify entity @s data.locators.cpi_cyan.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_blue.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/10
-data modify entity @s data.locators.cpi_green.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_cyan.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/11
-data modify entity @s data.locators.cpi_orange.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_green.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/12
-data modify entity @s data.locators.cpi_pink.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_orange.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/13
-data modify entity @s data.locators.cpi_purple.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_pink.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/14
-data modify entity @s data.locators.cpi_red.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_purple.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/15
-data modify entity @s data.locators.cpi_white.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_red.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/16
-data modify entity @s data.locators.cpi_yellow.uuid set from storage aj:uuid main.out
+data modify entity @s data.locators.cpi_white.uuid set from storage aj:uuid main.out
 summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
 execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/17
+data modify entity @s data.locators.cpi_yellow.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/18
 data modify entity @s data.locators.mirror_interaction.uuid set from storage aj:uuid main.out
+summon minecraft:marker ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:marker,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/19
+data modify entity @s data.locators.laser_catcher_marker.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/20
+data modify entity @s data.locators.cd_1.uuid set from storage aj:uuid main.out
+summon minecraft:marker ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:marker,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/21
+data modify entity @s data.locators.screen.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/22
+data modify entity @s data.locators.cd_2.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/23
+data modify entity @s data.locators.cd_3.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/24
+data modify entity @s data.locators.cd_4.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/25
+data modify entity @s data.locators.cd_5.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/26
+data modify entity @s data.locators.cd_6.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/27
+data modify entity @s data.locators.cd_7.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/28
+data modify entity @s data.locators.cd_8.uuid set from storage aj:uuid main.out
+summon minecraft:interaction ~ ~ ~ {Tags:['aj.new', 'aj.global.locator', 'aj.cccube.locator', 'aj.cccube.locator']}
+execute as @e[type=minecraft:interaction,tag=aj.new,tag=aj.global.locator,limit=1,distance=..0.01] run function animated_java:cccube/zzz/29
+data modify entity @s data.locators.cd_9.uuid set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.keycard_slot] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_keycard_slot set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.unanimated] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
@@ -125,3 +161,23 @@ execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mirror2] run fu
 data modify entity @s data.bones.item_display_mirror2 set from storage aj:uuid main.out
 execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mirror_shelf] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
 data modify entity @s data.bones.bone_mirror_shelf set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_interior set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.ls_door] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_ls_door set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.catchers] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_catchers set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.catcher] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_catcher set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.cd_door] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_cd_door set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.cd_door2] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_cd_door2 set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.the_lock] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_the_lock set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.cd_interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_cd_interior set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mys_cube_item] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.item_display_mys_cube_item set from storage aj:uuid main.out
+execute on vehicle on passengers if entity @s[tag=aj.cccube.node.mcs_interior] run function animated_java:global/internal/gu/convert_uuid_array_to_string with entity @s
+data modify entity @s data.bones.bone_mcs_interior set from storage aj:uuid main.out

@@ -37,6 +37,15 @@
 			"assets/animated_java/items/blueprint/cccube/cpc_white.json",
 			"assets/animated_java/items/blueprint/cccube/cpc_yellow.json",
 			"assets/animated_java/items/blueprint/cccube/mirror_shelf.json",
+			"assets/animated_java/items/blueprint/cccube/interior.json",
+			"assets/animated_java/items/blueprint/cccube/ls_door.json",
+			"assets/animated_java/items/blueprint/cccube/catcher.json",
+			"assets/animated_java/items/blueprint/cccube/catchers.json",
+			"assets/animated_java/items/blueprint/cccube/cd_door.json",
+			"assets/animated_java/items/blueprint/cccube/cd_door2.json",
+			"assets/animated_java/items/blueprint/cccube/the_lock.json",
+			"assets/animated_java/items/blueprint/cccube/cd_interior.json",
+			"assets/animated_java/items/blueprint/cccube/mcs_interior.json",
 			"assets/animated_java/models/blueprint/cccube/unanimated.json",
 			"assets/animated_java/models/blueprint/cccube/keycard_slot.json",
 			"assets/animated_java/models/blueprint/cccube/inspector_base.json",
@@ -71,7 +80,16 @@
 			"assets/animated_java/models/blueprint/cccube/cpc_red.json",
 			"assets/animated_java/models/blueprint/cccube/cpc_white.json",
 			"assets/animated_java/models/blueprint/cccube/cpc_yellow.json",
-			"assets/animated_java/models/blueprint/cccube/mirror_shelf.json"
+			"assets/animated_java/models/blueprint/cccube/mirror_shelf.json",
+			"assets/animated_java/models/blueprint/cccube/interior.json",
+			"assets/animated_java/models/blueprint/cccube/ls_door.json",
+			"assets/animated_java/models/blueprint/cccube/catcher.json",
+			"assets/animated_java/models/blueprint/cccube/catchers.json",
+			"assets/animated_java/models/blueprint/cccube/cd_door.json",
+			"assets/animated_java/models/blueprint/cccube/cd_door2.json",
+			"assets/animated_java/models/blueprint/cccube/the_lock.json",
+			"assets/animated_java/models/blueprint/cccube/cd_interior.json",
+			"assets/animated_java/models/blueprint/cccube/mcs_interior.json"
 		]
 	},
 	"elevator": {

@@ -4,5 +4,6 @@ execute unless score @s aj.is_rig_loaded matches 1 run function #animated_java:g
 function #animated_java:lasergun/as_root/pre_tick
 execute if entity @s[tag=aj.lasergun.animation.lasergun_open.playing] run function animated_java:lasergun/animations/lasergun_open/zzz/on_tick
 execute if entity @s[tag=aj.lasergun.animation.lasergun_loop.playing] run function animated_java:lasergun/animations/lasergun_loop/zzz/on_tick
+execute if entity @s[tag=aj.lasergun.animation.lasergun_close.playing] run function animated_java:lasergun/animations/lasergun_close/zzz/on_tick
 execute at @s on passengers run rotate @s ~ ~
 function #animated_java:lasergun/as_root/post_tick

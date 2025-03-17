@@ -6,3 +6,6 @@ tag @s remove aj.cccube.animation.cccube_slider1_on.playing
 tag @s remove aj.cccube.animation.cccube_slider2_on.playing
 tag @s remove aj.cccube.animation.cccube_color_puzzle_open.playing
 tag @s remove aj.cccube.animation.cccube_mirror_shelf_open.playing
+tag @s remove aj.cccube.animation.laser_catcher_open.playing
+tag @s remove aj.cccube.animation.code_lock_open.playing
+tag @s remove aj.cccube.animation.mys_cube_open.playing

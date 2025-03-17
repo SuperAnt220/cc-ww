@@ -2,3 +2,4 @@
 execute unless entity @s[type=item_display,tag=aj.lasergun.root] run return run function animated_java:global/errors/function_not_executed_as_root_entity {'export_namespace': 'lasergun', 'function_path': 'animated_java:lasergun/animations/pause_all'}
 tag @s remove aj.lasergun.animation.lasergun_open.playing
 tag @s remove aj.lasergun.animation.lasergun_loop.playing
+tag @s remove aj.lasergun.animation.lasergun_close.playing

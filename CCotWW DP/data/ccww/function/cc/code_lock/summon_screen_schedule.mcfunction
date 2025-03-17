@@ -1,0 +1,1 @@
+execute as @n[type=marker,tag=ccww.code_lock_screen] at @s run function ccww:cc/code_lock/summon_screen

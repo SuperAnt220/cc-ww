@@ -208,6 +208,66 @@
 					}
 				}
 			}
+		},
+		"laser_catcher_open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3,
+			"loop_delay": 0,
+			"bones": {
+				"ls_door": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.35": [2, 0, 0],
+						"1.4": [2, 16, 0]
+					}
+				},
+				"catcher": {
+					"position": {
+						"1.4": [0, 0, 0],
+						"2.0": [3, 0, 0]
+					}
+				}
+			}
+		},
+		"code_lock_open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 3.45,
+			"loop_delay": 0,
+			"bones": {
+				"cd_door": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 2, 0],
+						"1.9": [0, 2, 19]
+					}
+				},
+				"the_lock": {
+					"position": {
+						"2.0": [0, 0, 0],
+						"2.7": [0, 5, 0]
+					}
+				},
+				"cd_door2": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 2, 0],
+						"1.9": [0, 2, -19]
+					}
+				}
+			}
+		},
+		"mys_cube_open": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.1,
+			"loop_delay": 0,
+			"bones": {
+				"mys_cube_shelf": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"1.05": [0, 0, -17]
+					}
+				}
+			}
 		}
 	}
 }

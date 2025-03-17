@@ -62,3 +62,7 @@ execute if entity @s[tag=ccww.sm6] unless entity @a[distance=..5,predicate=ccww:
 
 execute if entity @s[tag=ccww.sm7] if entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 1b
 execute if entity @s[tag=ccww.sm7] unless entity @a[distance=..5,predicate=ccww:looking_at/sm7] run data modify entity @n[type=item_display,tag=aj.stable_mirror.bone.the_button,distance=..2] Glowing set value 0b
+
+#mys cube
+execute if entity @s[tag=ccww.mys_cube_interaction,tag=ccww.mys_cube_activated] if entity @a[distance=..5,predicate=ccww:looking_at/mys_cube_interaction] run data modify entity @n[type=item_display,tag=aj.cccube.node.mys_cube_item,distance=..20] Glowing set value 1b
+execute if entity @s[tag=ccww.mys_cube_interaction,tag=ccww.mys_cube_activated] unless entity @a[distance=..5,predicate=ccww:looking_at/mys_cube_interaction] run data modify entity @n[type=item_display,tag=aj.cccube.node.mys_cube_item,distance=..20] Glowing set value 0b
